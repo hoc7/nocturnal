@@ -1,0 +1,14 @@
+*.csproj
+*.sln
+Library/
+Temp/
+AdvOutput/
+/ScreenShots/
+Recordings/
+obj/
+.svn/
+.vs/
+.idea/
+Score/
+Logs/
+UserSettings/Layouts/default-2022.dwlt
