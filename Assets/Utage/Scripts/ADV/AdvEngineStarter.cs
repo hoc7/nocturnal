@@ -8,6 +8,7 @@ using UtageExtensions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 
 namespace Utage
 {
@@ -361,16 +362,15 @@ namespace Utage
 
 
 		//シナリオ開始
-		public void StartEngine()
+		public async UniTask StartEngine()
 		{
-			StartCoroutine(CoPlayEngine());
+			await CoPlayEngine();
 		}
 
-		IEnumerator CoPlayEngine()
+		async UniTask CoPlayEngine()
 		{
-			//初期化（シナリオのDLなど）を待つ
-			while (Engine.IsWaitBootLoading) yield return null;
-
+			await UniTask.WaitWhile(() => Engine.IsWaitBootLoading);
+			
 			if (string.IsNullOrEmpty(startScenario))
 			{
 				Engine.StartGame();
@@ -379,7 +379,10 @@ namespace Utage
 			{
 				Engine.StartGame(startScenario);
 			}
+
+			await UniTask.WaitUntil(() => Engine.IsEndScenario);
 		}
+		
 #if UNITY_EDITOR
 		const int Version = 1;
 		[SerializeField, HideInInspector]

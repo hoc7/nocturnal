@@ -16,16 +16,16 @@ MonoBehaviour:
   localizeFallbacks:
   - language: English
     fallbacks:
-    - {fileID: 11400000, guid: d9d2883046eb24e4da6dd8bb2f10b2df, type: 2}
+    - {fileID: 11400000, guid: 5c6e128b0ae7db64cb4daf43b107b048, type: 2}
   - language: Japanese
     fallbacks:
-    - {fileID: 11400000, guid: d9d2883046eb24e4da6dd8bb2f10b2df, type: 2}
+    - {fileID: 11400000, guid: 5c6e128b0ae7db64cb4daf43b107b048, type: 2}
   - language: Korean
     fallbacks:
-    - {fileID: 11400000, guid: 44421293db1f83d4b938a068e6998007, type: 2}
+    - {fileID: 11400000, guid: ca7571217491f1b459c1a428819c07a6, type: 2}
   - language: ChineseSimplified
     fallbacks:
-    - {fileID: 11400000, guid: 409c86bd1fa1d29449e8cab9119c46fe, type: 2}
+    - {fileID: 11400000, guid: fcbaaffb64d41c0489643b5aabbad98a, type: 2}
   - language: ChineseTraditional
     fallbacks:
-    - {fileID: 11400000, guid: 9a7090c8203b04d4d995520143cff5b2, type: 2}
+    - {fileID: 11400000, guid: b0d75f1d04ca3de438eee26c23b8cc49, type: 2}

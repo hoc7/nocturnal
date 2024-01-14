@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoChangeProject: 1
-  currentProject: {fileID: 11400000, guid: dcbed5197dfa6d64780eb8ad0d137eb6, type: 2}
+  currentProject: {fileID: 11400000, guid: 808197cfb44354448834ebbdc33fda05, type: 2}
   importSettings:
     autoImportType: 1
     quickImportType: 0

@@ -225,6 +225,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.recorder": {
+      "version": "4.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
       "version": "14.0.9",
       "depth": 1,
@@ -336,6 +345,13 @@
       "source": "git",
       "dependencies": {},
       "hash": "c3e4be25784199f93a7c6368a2d24e64e3d614a3"
+    },
+    "net.tnrd.serializableinterface": {
+      "version": "2.1.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

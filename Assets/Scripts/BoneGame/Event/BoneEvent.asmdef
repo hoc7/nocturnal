@@ -1,0 +1,24 @@
+{
+    "name": "BoneEvent",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:71b5f690d23cb464596025b761d6eb2f",
+        "GUID:eb39997690f8e1e4cb9e7dc641f55e04",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:feccedfe35683a44cbdbb1f990156165",
+        "GUID:60e1593b807c4ff4afd7d10ea455d532",
+        "GUID:7904b408d96c50e4b97ddea73cb9ec9a",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:9e24947de15b9834991c9d8411ea37cf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

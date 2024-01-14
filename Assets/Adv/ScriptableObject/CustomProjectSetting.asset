@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c4aa17f89b11d4596f9f9d5dc89489, type: 3}
   m_Name: CustomProjectSetting
   m_EditorClassIdentifier: 
-  language: {fileID: 11400000, guid: 4054e3254c22e834e91a854932d86196, type: 2}
+  language: {fileID: 11400000, guid: b699ec9ec60514648a96278f18a144d8, type: 2}
   useSheetNameToScenarioLabel: 1

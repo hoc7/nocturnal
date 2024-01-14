@@ -1,0 +1,2311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de784198baf44a92b8005b14520988b9, type: 3}
+  m_Name: SignMaster
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Id: 0
+  Name: 
+  HipData:
+  - {fileID: 4900000, guid: 5b3f37de4a9e930499480d500cfd933b, type: 3}
+  Signs:
+  - SignKey: And
+    SignId: 1
+    _lines:
+    - signKey: And
+      sttHipId: 677
+      endHipId: 3092
+    - signKey: And
+      sttHipId: 3092
+      endHipId: 5447
+    - signKey: And
+      sttHipId: 9640
+      endHipId: 5447
+    - signKey: And
+      sttHipId: 5447
+      endHipId: 4436
+    - signKey: And
+      sttHipId: 4436
+      endHipId: 3881
+  - SignKey: Ant
+    SignId: 2
+    _lines:
+    - signKey: Ant
+      sttHipId: 51172
+      endHipId: 48926
+  - SignKey: Aps
+    SignId: 3
+    _lines:
+    - signKey: Aps
+      sttHipId: 72370
+      endHipId: 81065
+    - signKey: Aps
+      sttHipId: 81065
+      endHipId: 81852
+  - SignKey: Aql
+    SignId: 4
+    _lines:
+    - signKey: Aql
+      sttHipId: 98036
+      endHipId: 97649
+    - signKey: Aql
+      sttHipId: 97649
+      endHipId: 97278
+    - signKey: Aql
+      sttHipId: 97649
+      endHipId: 95501
+    - signKey: Aql
+      sttHipId: 95501
+      endHipId: 97804
+    - signKey: Aql
+      sttHipId: 99473
+      endHipId: 97804
+    - signKey: Aql
+      sttHipId: 95501
+      endHipId: 93747
+    - signKey: Aql
+      sttHipId: 93747
+      endHipId: 93244
+    - signKey: Aql
+      sttHipId: 95501
+      endHipId: 93805
+  - SignKey: Aqr
+    SignId: 5
+    _lines:
+    - signKey: Aqr
+      sttHipId: 106278
+      endHipId: 109074
+    - signKey: Aqr
+      sttHipId: 109074
+      endHipId: 110395
+    - signKey: Aqr
+      sttHipId: 110395
+      endHipId: 110960
+    - signKey: Aqr
+      sttHipId: 110960
+      endHipId: 111497
+    - signKey: Aqr
+      sttHipId: 111497
+      endHipId: 112961
+    - signKey: Aqr
+      sttHipId: 112961
+      endHipId: 114855
+    - signKey: Aqr
+      sttHipId: 114855
+      endHipId: 115438
+    - signKey: Aqr
+      sttHipId: 109074
+      endHipId: 110003
+    - signKey: Aqr
+      sttHipId: 110003
+      endHipId: 109139
+    - signKey: Aqr
+      sttHipId: 110003
+      endHipId: 111123
+    - signKey: Aqr
+      sttHipId: 111123
+      endHipId: 112716
+    - signKey: Aqr
+      sttHipId: 112716
+      endHipId: 113136
+    - signKey: Aqr
+      sttHipId: 113136
+      endHipId: 114341
+    - signKey: Aqr
+      sttHipId: 102618
+      endHipId: 106278
+  - SignKey: Ara
+    SignId: 6
+    _lines:
+    - signKey: Ara
+      sttHipId: 88714
+      endHipId: 85792
+    - signKey: Ara
+      sttHipId: 85792
+      endHipId: 83081
+    - signKey: Ara
+      sttHipId: 83081
+      endHipId: 82363
+    - signKey: Ara
+      sttHipId: 82363
+      endHipId: 85727
+    - signKey: Ara
+      sttHipId: 85727
+      endHipId: 85267
+    - signKey: Ara
+      sttHipId: 85267
+      endHipId: 85258
+    - signKey: Ara
+      sttHipId: 85258
+      endHipId: 88714
+  - SignKey: Ari
+    SignId: 7
+    _lines:
+    - signKey: Ari
+      sttHipId: 13209
+      endHipId: 9884
+    - signKey: Ari
+      sttHipId: 9884
+      endHipId: 8903
+    - signKey: Ari
+      sttHipId: 8903
+      endHipId: 8832
+  - SignKey: Aur
+    SignId: 8
+    _lines:
+    - signKey: Aur
+      sttHipId: 28380
+      endHipId: 28360
+    - signKey: Aur
+      sttHipId: 28360
+      endHipId: 24608
+    - signKey: Aur
+      sttHipId: 24608
+      endHipId: 23453
+    - signKey: Aur
+      sttHipId: 23453
+      endHipId: 23015
+    - signKey: Aur
+      sttHipId: 25428
+      endHipId: 23015
+    - signKey: Aur
+      sttHipId: 25428
+      endHipId: 28380
+  - SignKey: Boo
+    SignId: 9
+    _lines:
+    - signKey: Boo
+      sttHipId: 71795
+      endHipId: 69673
+    - signKey: Boo
+      sttHipId: 69673
+      endHipId: 72105
+    - signKey: Boo
+      sttHipId: 72105
+      endHipId: 74666
+    - signKey: Boo
+      sttHipId: 74666
+      endHipId: 73555
+    - signKey: Boo
+      sttHipId: 73555
+      endHipId: 71075
+    - signKey: Boo
+      sttHipId: 71075
+      endHipId: 71053
+    - signKey: Boo
+      sttHipId: 71053
+      endHipId: 69673
+    - signKey: Boo
+      sttHipId: 69673
+      endHipId: 67927
+    - signKey: Boo
+      sttHipId: 67927
+      endHipId: 67459
+  - SignKey: Cae
+    SignId: 10
+    _lines:
+    - signKey: Cae
+      sttHipId: 21060
+      endHipId: 21770
+    - signKey: Cae
+      sttHipId: 21770
+      endHipId: 21861
+  - SignKey: Cam
+    SignId: 11
+    _lines:
+    - signKey: Cam
+      sttHipId: 16228
+      endHipId: 18505
+    - signKey: Cam
+      sttHipId: 18505
+      endHipId: 22783
+    - signKey: Cam
+      sttHipId: 16228
+      endHipId: 17959
+    - signKey: Cam
+      sttHipId: 17959
+      endHipId: 22783
+    - signKey: Cam
+      sttHipId: 17959
+      endHipId: 25110
+  - SignKey: Cap
+    SignId: 12
+    _lines:
+    - signKey: Cap
+      sttHipId: 100064
+      endHipId: 100345
+    - signKey: Cap
+      sttHipId: 100345
+      endHipId: 104139
+    - signKey: Cap
+      sttHipId: 104139
+      endHipId: 105515
+    - signKey: Cap
+      sttHipId: 105515
+      endHipId: 106985
+    - signKey: Cap
+      sttHipId: 106985
+      endHipId: 107556
+    - signKey: Cap
+      sttHipId: 105515
+      endHipId: 105881
+    - signKey: Cap
+      sttHipId: 105881
+      endHipId: 104139
+    - signKey: Cap
+      sttHipId: 100345
+      endHipId: 102485
+    - signKey: Cap
+      sttHipId: 104139
+      endHipId: 102978
+  - SignKey: Car
+    SignId: 13
+    _lines:
+    - signKey: Car
+      sttHipId: 45238
+      endHipId: 50099
+    - signKey: Car
+      sttHipId: 50099
+      endHipId: 52419
+    - signKey: Car
+      sttHipId: 52419
+      endHipId: 52468
+    - signKey: Car
+      sttHipId: 52468
+      endHipId: 54463
+    - signKey: Car
+      sttHipId: 54463
+      endHipId: 53253
+    - signKey: Car
+      sttHipId: 53253
+      endHipId: 51232
+    - signKey: Car
+      sttHipId: 51232
+      endHipId: 50371
+    - signKey: Car
+      sttHipId: 50371
+      endHipId: 45556
+    - signKey: Car
+      sttHipId: 42568
+      endHipId: 41037
+    - signKey: Car
+      sttHipId: 41037
+      endHipId: 30438
+    - signKey: Car
+      sttHipId: 45080
+      endHipId: 45556
+    - signKey: Car
+      sttHipId: 45080
+      endHipId: 42568
+    - signKey: Car
+      sttHipId: 30438
+      endHipId: 31685
+    - signKey: Car
+      sttHipId: 41037
+      endHipId: 39429
+  - SignKey: Cas
+    SignId: 14
+    _lines:
+    - signKey: Cas
+      sttHipId: 8886
+      endHipId: 6686
+    - signKey: Cas
+      sttHipId: 6686
+      endHipId: 4427
+    - signKey: Cas
+      sttHipId: 4427
+      endHipId: 3179
+    - signKey: Cas
+      sttHipId: 3179
+      endHipId: 746
+  - SignKey: Cen
+    SignId: 15
+    _lines:
+    - signKey: Cen
+      sttHipId: 71683
+      endHipId: 68702
+    - signKey: Cen
+      sttHipId: 68702
+      endHipId: 66657
+    - signKey: Cen
+      sttHipId: 66657
+      endHipId: 68002
+    - signKey: Cen
+      sttHipId: 68002
+      endHipId: 68282
+    - signKey: Cen
+      sttHipId: 68282
+      endHipId: 67472
+    - signKey: Cen
+      sttHipId: 67472
+      endHipId: 67464
+    - signKey: Cen
+      sttHipId: 67464
+      endHipId: 65936
+    - signKey: Cen
+      sttHipId: 65936
+      endHipId: 65109
+    - signKey: Cen
+      sttHipId: 67464
+      endHipId: 68933
+    - signKey: Cen
+      sttHipId: 67472
+      endHipId: 71352
+    - signKey: Cen
+      sttHipId: 71352
+      endHipId: 73334
+    - signKey: Cen
+      sttHipId: 68002
+      endHipId: 61932
+    - signKey: Cen
+      sttHipId: 61932
+      endHipId: 60823
+    - signKey: Cen
+      sttHipId: 60823
+      endHipId: 59196
+    - signKey: Cen
+      sttHipId: 59196
+      endHipId: 56480
+    - signKey: Cen
+      sttHipId: 56480
+      endHipId: 56561
+  - SignKey: Cep
+    SignId: 16
+    _lines:
+    - signKey: Cep
+      sttHipId: 109492
+      endHipId: 112724
+    - signKey: Cep
+      sttHipId: 112724
+      endHipId: 106032
+    - signKey: Cep
+      sttHipId: 106032
+      endHipId: 105199
+    - signKey: Cep
+      sttHipId: 105199
+      endHipId: 109492
+    - signKey: Cep
+      sttHipId: 112724
+      endHipId: 116727
+    - signKey: Cep
+      sttHipId: 116727
+      endHipId: 106032
+  - SignKey: Cet
+    SignId: 17
+    _lines:
+    - signKey: Cet
+      sttHipId: 10324
+      endHipId: 11484
+    - signKey: Cet
+      sttHipId: 8102
+      endHipId: 3419
+    - signKey: Cet
+      sttHipId: 3419
+      endHipId: 1562
+    - signKey: Cet
+      sttHipId: 3419
+      endHipId: 5364
+    - signKey: Cet
+      sttHipId: 5364
+      endHipId: 6537
+    - signKey: Cet
+      sttHipId: 6537
+      endHipId: 8645
+    - signKey: Cet
+      sttHipId: 8645
+      endHipId: 11345
+    - signKey: Cet
+      sttHipId: 11345
+      endHipId: 12390
+    - signKey: Cet
+      sttHipId: 12390
+      endHipId: 12770
+    - signKey: Cet
+      sttHipId: 12770
+      endHipId: 11783
+    - signKey: Cet
+      sttHipId: 11783
+      endHipId: 8102
+    - signKey: Cet
+      sttHipId: 10826
+      endHipId: 12390
+    - signKey: Cet
+      sttHipId: 10826
+      endHipId: 12387
+    - signKey: Cet
+      sttHipId: 12387
+      endHipId: 12706
+    - signKey: Cet
+      sttHipId: 12706
+      endHipId: 14135
+    - signKey: Cet
+      sttHipId: 14135
+      endHipId: 13954
+    - signKey: Cet
+      sttHipId: 13954
+      endHipId: 12828
+    - signKey: Cet
+      sttHipId: 12828
+      endHipId: 11484
+    - signKey: Cet
+      sttHipId: 11484
+      endHipId: 12093
+    - signKey: Cet
+      sttHipId: 12093
+      endHipId: 12706
+  - SignKey: Cha
+    SignId: 18
+    _lines:
+    - signKey: Cha
+      sttHipId: 40702
+      endHipId: 51839
+    - signKey: Cha
+      sttHipId: 51839
+      endHipId: 60000
+  - SignKey: Cir
+    SignId: 19
+    _lines:
+    - signKey: Cir
+      sttHipId: 71908
+      endHipId: 75323
+    - signKey: Cir
+      sttHipId: 71908
+      endHipId: 74824
+  - SignKey: CMa
+    SignId: 20
+    _lines:
+    - signKey: CMa
+      sttHipId: 33160
+      endHipId: 34045
+    - signKey: CMa
+      sttHipId: 34045
+      endHipId: 33347
+    - signKey: CMa
+      sttHipId: 33347
+      endHipId: 32349
+    - signKey: CMa
+      sttHipId: 32349
+      endHipId: 33977
+    - signKey: CMa
+      sttHipId: 33977
+      endHipId: 34444
+    - signKey: CMa
+      sttHipId: 34444
+      endHipId: 35037
+    - signKey: CMa
+      sttHipId: 35037
+      endHipId: 35904
+    - signKey: CMa
+      sttHipId: 33579
+      endHipId: 33856
+    - signKey: CMa
+      sttHipId: 33856
+      endHipId: 34444
+    - signKey: CMa
+      sttHipId: 33856
+      endHipId: 33165
+    - signKey: CMa
+      sttHipId: 33165
+      endHipId: 31592
+    - signKey: CMa
+      sttHipId: 31592
+      endHipId: 31416
+    - signKey: CMa
+      sttHipId: 31592
+      endHipId: 30324
+    - signKey: CMa
+      sttHipId: 31592
+      endHipId: 32349
+    - signKey: CMa
+      sttHipId: 33579
+      endHipId: 32759
+    - signKey: CMa
+      sttHipId: 30122
+      endHipId: 33579
+    - signKey: CMa
+      sttHipId: 33347
+      endHipId: 33160
+  - SignKey: CMi
+    SignId: 21
+    _lines:
+    - signKey: CMi
+      sttHipId: 37279
+      endHipId: 36188
+  - SignKey: Cnc
+    SignId: 22
+    _lines:
+    - signKey: Cnc
+      sttHipId: 43103
+      endHipId: 42806
+    - signKey: Cnc
+      sttHipId: 42806
+      endHipId: 40843
+    - signKey: Cnc
+      sttHipId: 42806
+      endHipId: 42911
+    - signKey: Cnc
+      sttHipId: 42911
+      endHipId: 40526
+    - signKey: Cnc
+      sttHipId: 42911
+      endHipId: 44066
+  - SignKey: Col
+    SignId: 23
+    _lines:
+    - signKey: Col
+      sttHipId: 30277
+      endHipId: 29807
+    - signKey: Col
+      sttHipId: 29807
+      endHipId: 28199
+    - signKey: Col
+      sttHipId: 28199
+      endHipId: 27628
+    - signKey: Col
+      sttHipId: 27628
+      endHipId: 28328
+    - signKey: Col
+      sttHipId: 27628
+      endHipId: 26634
+    - signKey: Col
+      sttHipId: 26634
+      endHipId: 25859
+  - SignKey: Com
+    SignId: 24
+    _lines:
+    - signKey: Com
+      sttHipId: 64241
+      endHipId: 64394
+    - signKey: Com
+      sttHipId: 64394
+      endHipId: 60742
+  - SignKey: CrA
+    SignId: 25
+    _lines:
+    - signKey: CrA
+      sttHipId: 91875
+      endHipId: 92989
+    - signKey: CrA
+      sttHipId: 92989
+      endHipId: 93174
+    - signKey: CrA
+      sttHipId: 93174
+      endHipId: 93825
+    - signKey: CrA
+      sttHipId: 93825
+      endHipId: 94114
+    - signKey: CrA
+      sttHipId: 94114
+      endHipId: 94160
+    - signKey: CrA
+      sttHipId: 94160
+      endHipId: 94005
+    - signKey: CrA
+      sttHipId: 94005
+      endHipId: 93542
+    - signKey: CrA
+      sttHipId: 93542
+      endHipId: 92953
+    - signKey: CrA
+      sttHipId: 91875
+      endHipId: 90887
+  - SignKey: CrB
+    SignId: 26
+    _lines:
+    - signKey: CrB
+      sttHipId: 76127
+      endHipId: 75695
+    - signKey: CrB
+      sttHipId: 75695
+      endHipId: 76267
+    - signKey: CrB
+      sttHipId: 76267
+      endHipId: 76952
+    - signKey: CrB
+      sttHipId: 76952
+      endHipId: 77512
+    - signKey: CrB
+      sttHipId: 77512
+      endHipId: 78159
+    - signKey: CrB
+      sttHipId: 78159
+      endHipId: 78493
+  - SignKey: Crt
+    SignId: 27
+    _lines:
+    - signKey: Crt
+      sttHipId: 53740
+      endHipId: 54682
+    - signKey: Crt
+      sttHipId: 54682
+      endHipId: 55705
+    - signKey: Crt
+      sttHipId: 55705
+      endHipId: 55282
+    - signKey: Crt
+      sttHipId: 55282
+      endHipId: 53740
+    - signKey: Crt
+      sttHipId: 55282
+      endHipId: 55687
+    - signKey: Crt
+      sttHipId: 55687
+      endHipId: 56633
+    - signKey: Crt
+      sttHipId: 56633
+      endHipId: 58188
+    - signKey: Crt
+      sttHipId: 58188
+      endHipId: 57283
+    - signKey: Crt
+      sttHipId: 57283
+      endHipId: 55705
+  - SignKey: Cru
+    SignId: 28
+    _lines:
+    - signKey: Cru
+      sttHipId: 61084
+      endHipId: 60718
+    - signKey: Cru
+      sttHipId: 62434
+      endHipId: 59747
+  - SignKey: Crv
+    SignId: 29
+    _lines:
+    - signKey: Crv
+      sttHipId: 61174
+      endHipId: 60965
+    - signKey: Crv
+      sttHipId: 60965
+      endHipId: 59803
+    - signKey: Crv
+      sttHipId: 59803
+      endHipId: 59316
+    - signKey: Crv
+      sttHipId: 59316
+      endHipId: 59199
+    - signKey: Crv
+      sttHipId: 59316
+      endHipId: 61359
+    - signKey: Crv
+      sttHipId: 61359
+      endHipId: 60965
+  - SignKey: CVn
+    SignId: 30
+    _lines:
+    - signKey: CVn
+      sttHipId: 61317
+      endHipId: 63125
+  - SignKey: Cyg
+    SignId: 31
+    _lines:
+    - signKey: Cyg
+      sttHipId: 94779
+      endHipId: 95853
+    - signKey: Cyg
+      sttHipId: 95853
+      endHipId: 97165
+    - signKey: Cyg
+      sttHipId: 97165
+      endHipId: 100453
+    - signKey: Cyg
+      sttHipId: 100453
+      endHipId: 102098
+    - signKey: Cyg
+      sttHipId: 100453
+      endHipId: 102488
+    - signKey: Cyg
+      sttHipId: 102488
+      endHipId: 104732
+    - signKey: Cyg
+      sttHipId: 104732
+      endHipId: 107310
+    - signKey: Cyg
+      sttHipId: 100453
+      endHipId: 98110
+    - signKey: Cyg
+      sttHipId: 98110
+      endHipId: 95947
+  - SignKey: Del
+    SignId: 32
+    _lines:
+    - signKey: Del
+      sttHipId: 101421
+      endHipId: 101769
+    - signKey: Del
+      sttHipId: 101769
+      endHipId: 101958
+    - signKey: Del
+      sttHipId: 101958
+      endHipId: 102532
+    - signKey: Del
+      sttHipId: 102532
+      endHipId: 102281
+    - signKey: Del
+      sttHipId: 102281
+      endHipId: 101769
+  - SignKey: Dor
+    SignId: 33
+    _lines:
+    - signKey: Dor
+      sttHipId: 27100
+      endHipId: 27890
+    - signKey: Dor
+      sttHipId: 27890
+      endHipId: 26069
+    - signKey: Dor
+      sttHipId: 26069
+      endHipId: 27100
+    - signKey: Dor
+      sttHipId: 26069
+      endHipId: 21281
+    - signKey: Dor
+      sttHipId: 21281
+      endHipId: 19893
+  - SignKey: Dra
+    SignId: 34
+    _lines:
+    - signKey: Dra
+      sttHipId: 87585
+      endHipId: 87833
+    - signKey: Dra
+      sttHipId: 87833
+      endHipId: 85670
+    - signKey: Dra
+      sttHipId: 85670
+      endHipId: 85829
+    - signKey: Dra
+      sttHipId: 85829
+      endHipId: 87585
+    - signKey: Dra
+      sttHipId: 87585
+      endHipId: 94376
+    - signKey: Dra
+      sttHipId: 94376
+      endHipId: 97433
+    - signKey: Dra
+      sttHipId: 97433
+      endHipId: 89937
+    - signKey: Dra
+      sttHipId: 89937
+      endHipId: 83895
+    - signKey: Dra
+      sttHipId: 83895
+      endHipId: 80331
+    - signKey: Dra
+      sttHipId: 80331
+      endHipId: 78527
+    - signKey: Dra
+      sttHipId: 78527
+      endHipId: 75458
+    - signKey: Dra
+      sttHipId: 75458
+      endHipId: 68756
+    - signKey: Dra
+      sttHipId: 68756
+      endHipId: 61281
+    - signKey: Dra
+      sttHipId: 61281
+      endHipId: 56211
+  - SignKey: Equ
+    SignId: 35
+    _lines:
+    - signKey: Equ
+      sttHipId: 104521
+      endHipId: 104858
+    - signKey: Equ
+      sttHipId: 104858
+      endHipId: 105570
+    - signKey: Equ
+      sttHipId: 105570
+      endHipId: 104987
+    - signKey: Equ
+      sttHipId: 104987
+      endHipId: 104521
+  - SignKey: Eri
+    SignId: 36
+    _lines:
+    - signKey: Eri
+      sttHipId: 7588
+      endHipId: 9007
+    - signKey: Eri
+      sttHipId: 9007
+      endHipId: 10602
+    - signKey: Eri
+      sttHipId: 10602
+      endHipId: 11407
+    - signKey: Eri
+      sttHipId: 11407
+      endHipId: 12413
+    - signKey: Eri
+      sttHipId: 12413
+      endHipId: 12486
+    - signKey: Eri
+      sttHipId: 12486
+      endHipId: 13847
+    - signKey: Eri
+      sttHipId: 13847
+      endHipId: 15510
+    - signKey: Eri
+      sttHipId: 15510
+      endHipId: 17797
+    - signKey: Eri
+      sttHipId: 17797
+      endHipId: 17874
+    - signKey: Eri
+      sttHipId: 17874
+      endHipId: 20042
+    - signKey: Eri
+      sttHipId: 20042
+      endHipId: 20535
+    - signKey: Eri
+      sttHipId: 20535
+      endHipId: 21393
+    - signKey: Eri
+      sttHipId: 21393
+      endHipId: 17651
+    - signKey: Eri
+      sttHipId: 17651
+      endHipId: 16611
+    - signKey: Eri
+      sttHipId: 16611
+      endHipId: 15474
+    - signKey: Eri
+      sttHipId: 15474
+      endHipId: 14146
+    - signKey: Eri
+      sttHipId: 14146
+      endHipId: 12843
+    - signKey: Eri
+      sttHipId: 12843
+      endHipId: 13701
+    - signKey: Eri
+      sttHipId: 13701
+      endHipId: 15197
+    - signKey: Eri
+      sttHipId: 15197
+      endHipId: 16537
+    - signKey: Eri
+      sttHipId: 16537
+      endHipId: 17378
+    - signKey: Eri
+      sttHipId: 17378
+      endHipId: 21444
+    - signKey: Eri
+      sttHipId: 21444
+      endHipId: 22109
+    - signKey: Eri
+      sttHipId: 22109
+      endHipId: 22701
+    - signKey: Eri
+      sttHipId: 22701
+      endHipId: 23875
+    - signKey: Eri
+      sttHipId: 23875
+      endHipId: 23972
+    - signKey: Eri
+      sttHipId: 23972
+      endHipId: 21594
+  - SignKey: For
+    SignId: 37
+    _lines:
+    - signKey: For
+      sttHipId: 13147
+      endHipId: 14879
+  - SignKey: Gem
+    SignId: 38
+    _lines:
+    - signKey: Gem
+      sttHipId: 31681
+      endHipId: 34088
+    - signKey: Gem
+      sttHipId: 34088
+      endHipId: 35550
+    - signKey: Gem
+      sttHipId: 35550
+      endHipId: 35350
+    - signKey: Gem
+      sttHipId: 35350
+      endHipId: 32362
+    - signKey: Gem
+      sttHipId: 35550
+      endHipId: 36962
+    - signKey: Gem
+      sttHipId: 36962
+      endHipId: 37740
+    - signKey: Gem
+      sttHipId: 36962
+      endHipId: 37826
+    - signKey: Gem
+      sttHipId: 36962
+      endHipId: 36046
+    - signKey: Gem
+      sttHipId: 36046
+      endHipId: 34693
+    - signKey: Gem
+      sttHipId: 34693
+      endHipId: 36850
+    - signKey: Gem
+      sttHipId: 34693
+      endHipId: 33018
+    - signKey: Gem
+      sttHipId: 34693
+      endHipId: 32246
+    - signKey: Gem
+      sttHipId: 32246
+      endHipId: 30883
+    - signKey: Gem
+      sttHipId: 32246
+      endHipId: 30343
+    - signKey: Gem
+      sttHipId: 30343
+      endHipId: 29655
+    - signKey: Gem
+      sttHipId: 29655
+      endHipId: 28734
+  - SignKey: Gru
+    SignId: 39
+    _lines:
+    - signKey: Gru
+      sttHipId: 114131
+      endHipId: 110997
+    - signKey: Gru
+      sttHipId: 110997
+      endHipId: 109268
+    - signKey: Gru
+      sttHipId: 109268
+      endHipId: 112122
+    - signKey: Gru
+      sttHipId: 112122
+      endHipId: 114421
+    - signKey: Gru
+      sttHipId: 114421
+      endHipId: 114131
+    - signKey: Gru
+      sttHipId: 112122
+      endHipId: 113638
+    - signKey: Gru
+      sttHipId: 112122
+      endHipId: 112623
+    - signKey: Gru
+      sttHipId: 109268
+      endHipId: 109111
+    - signKey: Gru
+      sttHipId: 109111
+      endHipId: 108085
+  - SignKey: Her
+    SignId: 40
+    _lines:
+    - signKey: Her
+      sttHipId: 86414
+      endHipId: 87808
+    - signKey: Her
+      sttHipId: 87808
+      endHipId: 85112
+    - signKey: Her
+      sttHipId: 85112
+      endHipId: 84606
+    - signKey: Her
+      sttHipId: 84606
+      endHipId: 84380
+    - signKey: Her
+      sttHipId: 84380
+      endHipId: 81833
+    - signKey: Her
+      sttHipId: 81833
+      endHipId: 81126
+    - signKey: Her
+      sttHipId: 81126
+      endHipId: 79992
+    - signKey: Her
+      sttHipId: 79992
+      endHipId: 77760
+    - signKey: Her
+      sttHipId: 81833
+      endHipId: 81693
+    - signKey: Her
+      sttHipId: 81693
+      endHipId: 80816
+    - signKey: Her
+      sttHipId: 80816
+      endHipId: 80170
+    - signKey: Her
+      sttHipId: 81693
+      endHipId: 83207
+    - signKey: Her
+      sttHipId: 83207
+      endHipId: 85693
+    - signKey: Her
+      sttHipId: 85693
+      endHipId: 84379
+    - signKey: Her
+      sttHipId: 86974
+      endHipId: 87933
+    - signKey: Her
+      sttHipId: 87933
+      endHipId: 88794
+    - signKey: Her
+      sttHipId: 87933
+      endHipId: 86974
+    - signKey: Her
+      sttHipId: 83207
+      endHipId: 84380
+  - SignKey: Hor
+    SignId: 41
+    _lines:
+    - signKey: Hor
+      sttHipId: 19747
+      endHipId: 12484
+    - signKey: Hor
+      sttHipId: 12484
+      endHipId: 14240
+  - SignKey: Hya
+    SignId: 42
+    _lines:
+    - signKey: Hya
+      sttHipId: 42799
+      endHipId: 42402
+    - signKey: Hya
+      sttHipId: 42402
+      endHipId: 42313
+    - signKey: Hya
+      sttHipId: 42313
+      endHipId: 43109
+    - signKey: Hya
+      sttHipId: 43109
+      endHipId: 43234
+    - signKey: Hya
+      sttHipId: 43234
+      endHipId: 42799
+    - signKey: Hya
+      sttHipId: 43234
+      endHipId: 43813
+    - signKey: Hya
+      sttHipId: 43813
+      endHipId: 45336
+    - signKey: Hya
+      sttHipId: 45336
+      endHipId: 46776
+    - signKey: Hya
+      sttHipId: 46776
+      endHipId: 46509
+    - signKey: Hya
+      sttHipId: 46509
+      endHipId: 46390
+    - signKey: Hya
+      sttHipId: 46390
+      endHipId: 48356
+    - signKey: Hya
+      sttHipId: 48356
+      endHipId: 49841
+    - signKey: Hya
+      sttHipId: 49841
+      endHipId: 51069
+    - signKey: Hya
+      sttHipId: 51069
+      endHipId: 52943
+    - signKey: Hya
+      sttHipId: 52943
+      endHipId: 56343
+    - signKey: Hya
+      sttHipId: 56343
+      endHipId: 57936
+    - signKey: Hya
+      sttHipId: 57936
+      endHipId: 64166
+    - signKey: Hya
+      sttHipId: 64166
+      endHipId: 64962
+  - SignKey: Hyi
+    SignId: 43
+    _lines:
+    - signKey: Hyi
+      sttHipId: 2021
+      endHipId: 17678
+    - signKey: Hyi
+      sttHipId: 17678
+      endHipId: 12394
+    - signKey: Hyi
+      sttHipId: 12394
+      endHipId: 11001
+    - signKey: Hyi
+      sttHipId: 11001
+      endHipId: 9236
+  - SignKey: Ind
+    SignId: 44
+    _lines:
+    - signKey: Ind
+      sttHipId: 105319
+      endHipId: 101772
+    - signKey: Ind
+      sttHipId: 101772
+      endHipId: 103227
+    - signKey: Ind
+      sttHipId: 103227
+      endHipId: 105319
+  - SignKey: Lac
+    SignId: 45
+    _lines:
+    - signKey: Lac
+      sttHipId: 109937
+      endHipId: 111104
+    - signKey: Lac
+      sttHipId: 111104
+      endHipId: 111022
+    - signKey: Lac
+      sttHipId: 111022
+      endHipId: 110609
+    - signKey: Lac
+      sttHipId: 110609
+      endHipId: 110538
+    - signKey: Lac
+      sttHipId: 110538
+      endHipId: 111169
+    - signKey: Lac
+      sttHipId: 111169
+      endHipId: 111022
+  - SignKey: Leo
+    SignId: 46
+    _lines:
+    - signKey: Leo
+      sttHipId: 57632
+      endHipId: 54879
+    - signKey: Leo
+      sttHipId: 54879
+      endHipId: 49669
+    - signKey: Leo
+      sttHipId: 49669
+      endHipId: 49583
+    - signKey: Leo
+      sttHipId: 49583
+      endHipId: 50583
+    - signKey: Leo
+      sttHipId: 50583
+      endHipId: 54872
+    - signKey: Leo
+      sttHipId: 54872
+      endHipId: 57632
+    - signKey: Leo
+      sttHipId: 50583
+      endHipId: 50335
+    - signKey: Leo
+      sttHipId: 50335
+      endHipId: 48455
+    - signKey: Leo
+      sttHipId: 48455
+      endHipId: 47908
+    - signKey: Leo
+      sttHipId: 54872
+      endHipId: 54879
+  - SignKey: Lep
+    SignId: 47
+    _lines:
+    - signKey: Lep
+      sttHipId: 28910
+      endHipId: 28103
+    - signKey: Lep
+      sttHipId: 28103
+      endHipId: 27288
+    - signKey: Lep
+      sttHipId: 27288
+      endHipId: 25985
+    - signKey: Lep
+      sttHipId: 25985
+      endHipId: 24305
+    - signKey: Lep
+      sttHipId: 25985
+      endHipId: 27654
+    - signKey: Lep
+      sttHipId: 27654
+      endHipId: 27072
+    - signKey: Lep
+      sttHipId: 27072
+      endHipId: 25606
+    - signKey: Lep
+      sttHipId: 25606
+      endHipId: 23685
+    - signKey: Lep
+      sttHipId: 25985
+      endHipId: 25606
+    - signKey: Lep
+      sttHipId: 24305
+      endHipId: 24845
+    - signKey: Lep
+      sttHipId: 24305
+      endHipId: 24327
+    - signKey: Lep
+      sttHipId: 23685
+      endHipId: 24305
+    - signKey: Lep
+      sttHipId: 24327
+      endHipId: 24244
+    - signKey: Lep
+      sttHipId: 24845
+      endHipId: 24873
+  - SignKey: Lib
+    SignId: 48
+    _lines:
+    - signKey: Lib
+      sttHipId: 77853
+      endHipId: 76333
+    - signKey: Lib
+      sttHipId: 76333
+      endHipId: 74785
+    - signKey: Lib
+      sttHipId: 74785
+      endHipId: 72622
+    - signKey: Lib
+      sttHipId: 72622
+      endHipId: 73714
+    - signKey: Lib
+      sttHipId: 73714
+      endHipId: 76333
+  - SignKey: LMi
+    SignId: 49
+    _lines:
+    - signKey: LMi
+      sttHipId: 53229
+      endHipId: 51233
+    - signKey: LMi
+      sttHipId: 51233
+      endHipId: 49593
+    - signKey: LMi
+      sttHipId: 49593
+      endHipId: 46952
+    - signKey: LMi
+      sttHipId: 49593
+      endHipId: 53229
+  - SignKey: Lup
+    SignId: 50
+    _lines:
+    - signKey: Lup
+      sttHipId: 77634
+      endHipId: 78970
+    - signKey: Lup
+      sttHipId: 78970
+      endHipId: 78384
+    - signKey: Lup
+      sttHipId: 78384
+      endHipId: 77634
+    - signKey: Lup
+      sttHipId: 78384
+      endHipId: 76297
+    - signKey: Lup
+      sttHipId: 76297
+      endHipId: 75141
+    - signKey: Lup
+      sttHipId: 75141
+      endHipId: 75177
+    - signKey: Lup
+      sttHipId: 75141
+      endHipId: 73273
+    - signKey: Lup
+      sttHipId: 76297
+      endHipId: 76552
+    - signKey: Lup
+      sttHipId: 76552
+      endHipId: 74395
+    - signKey: Lup
+      sttHipId: 74395
+      endHipId: 71860
+    - signKey: Lup
+      sttHipId: 74395
+      endHipId: 71536
+    - signKey: Lup
+      sttHipId: 71860
+      endHipId: 70576
+    - signKey: Lup
+      sttHipId: 71860
+      endHipId: 73273
+  - SignKey: Lyn
+    SignId: 51
+    _lines:
+    - signKey: Lyn
+      sttHipId: 45860
+      endHipId: 45688
+    - signKey: Lyn
+      sttHipId: 45688
+      endHipId: 44700
+    - signKey: Lyn
+      sttHipId: 44700
+      endHipId: 44248
+    - signKey: Lyn
+      sttHipId: 44248
+      endHipId: 41075
+    - signKey: Lyn
+      sttHipId: 41075
+      endHipId: 36145
+    - signKey: Lyn
+      sttHipId: 36145
+      endHipId: 33449
+    - signKey: Lyn
+      sttHipId: 33449
+      endHipId: 30060
+  - SignKey: Lyr
+    SignId: 52
+    _lines:
+    - signKey: Lyr
+      sttHipId: 91262
+      endHipId: 91971
+    - signKey: Lyr
+      sttHipId: 91971
+      endHipId: 92420
+    - signKey: Lyr
+      sttHipId: 92420
+      endHipId: 93194
+    - signKey: Lyr
+      sttHipId: 93194
+      endHipId: 92791
+    - signKey: Lyr
+      sttHipId: 92791
+      endHipId: 91971
+  - SignKey: Men
+    SignId: 53
+    _lines:
+    - signKey: Men
+      sttHipId: 25918
+      endHipId: 21949
+  - SignKey: Mic
+    SignId: 54
+    _lines:
+    - signKey: Mic
+      sttHipId: 105140
+      endHipId: 103738
+    - signKey: Mic
+      sttHipId: 103738
+      endHipId: 102831
+  - SignKey: Mon
+    SignId: 55
+    _lines:
+    - signKey: Mon
+      sttHipId: 29651
+      endHipId: 30867
+    - signKey: Mon
+      sttHipId: 30867
+      endHipId: 34769
+    - signKey: Mon
+      sttHipId: 34769
+      endHipId: 30419
+    - signKey: Mon
+      sttHipId: 30419
+      endHipId: 29151
+    - signKey: Mon
+      sttHipId: 34769
+      endHipId: 39863
+    - signKey: Mon
+      sttHipId: 39863
+      endHipId: 37447
+  - SignKey: Mus
+    SignId: 56
+    _lines:
+    - signKey: Mus
+      sttHipId: 62322
+      endHipId: 57363
+    - signKey: Mus
+      sttHipId: 57363
+      endHipId: 61199
+    - signKey: Mus
+      sttHipId: 61199
+      endHipId: 61585
+    - signKey: Mus
+      sttHipId: 61585
+      endHipId: 62322
+  - SignKey: Nor
+    SignId: 57
+    _lines:
+    - signKey: Nor
+      sttHipId: 79509
+      endHipId: 80000
+    - signKey: Nor
+      sttHipId: 80000
+      endHipId: 80582
+    - signKey: Nor
+      sttHipId: 80582
+      endHipId: 78639
+    - signKey: Nor
+      sttHipId: 78639
+      endHipId: 80000
+    - signKey: Nor
+      sttHipId: 78639
+      endHipId: 79509
+  - SignKey: Oct
+    SignId: 58
+    _lines:
+    - signKey: Oct
+      sttHipId: 107089
+      endHipId: 112405
+    - signKey: Oct
+      sttHipId: 112405
+      endHipId: 70638
+    - signKey: Oct
+      sttHipId: 70638
+      endHipId: 107089
+  - SignKey: Oph
+    SignId: 59
+    _lines:
+    - signKey: Oph
+      sttHipId: 86032
+      endHipId: 86742
+    - signKey: Oph
+      sttHipId: 84012
+      endHipId: 86742
+    - signKey: Oph
+      sttHipId: 86032
+      endHipId: 83000
+    - signKey: Oph
+      sttHipId: 83000
+      endHipId: 79882
+    - signKey: Oph
+      sttHipId: 79882
+      endHipId: 81377
+    - signKey: Oph
+      sttHipId: 81377
+      endHipId: 84012
+    - signKey: Oph
+      sttHipId: 84012
+      endHipId: 85755
+  - SignKey: Ori
+    SignId: 60
+    _lines:
+    - signKey: Ori
+      sttHipId: 26727
+      endHipId: 26311
+    - signKey: Ori
+      sttHipId: 26311
+      endHipId: 25930
+    - signKey: Ori
+      sttHipId: 28691
+      endHipId: 29426
+    - signKey: Ori
+      sttHipId: 29426
+      endHipId: 29038
+    - signKey: Ori
+      sttHipId: 29038
+      endHipId: 27913
+    - signKey: Ori
+      sttHipId: 29426
+      endHipId: 28614
+    - signKey: Ori
+      sttHipId: 28614
+      endHipId: 27989
+    - signKey: Ori
+      sttHipId: 27989
+      endHipId: 26727
+    - signKey: Ori
+      sttHipId: 26727
+      endHipId: 27366
+    - signKey: Ori
+      sttHipId: 27366
+      endHipId: 24436
+    - signKey: Ori
+      sttHipId: 24436
+      endHipId: 25930
+    - signKey: Ori
+      sttHipId: 25930
+      endHipId: 25336
+    - signKey: Ori
+      sttHipId: 25336
+      endHipId: 26207
+    - signKey: Ori
+      sttHipId: 26207
+      endHipId: 27989
+    - signKey: Ori
+      sttHipId: 25336
+      endHipId: 22449
+    - signKey: Ori
+      sttHipId: 22449
+      endHipId: 22549
+    - signKey: Ori
+      sttHipId: 22549
+      endHipId: 22730
+    - signKey: Ori
+      sttHipId: 22730
+      endHipId: 23123
+    - signKey: Ori
+      sttHipId: 22449
+      endHipId: 22509
+    - signKey: Ori
+      sttHipId: 22509
+      endHipId: 22845
+    - signKey: Ori
+      sttHipId: 29038
+      endHipId: 28614
+  - SignKey: Pav
+    SignId: 61
+    _lines:
+    - signKey: Pav
+      sttHipId: 100751
+      endHipId: 105858
+    - signKey: Pav
+      sttHipId: 105858
+      endHipId: 102395
+    - signKey: Pav
+      sttHipId: 102395
+      endHipId: 99240
+    - signKey: Pav
+      sttHipId: 99240
+      endHipId: 100751
+    - signKey: Pav
+      sttHipId: 99240
+      endHipId: 98495
+    - signKey: Pav
+      sttHipId: 98495
+      endHipId: 91792
+    - signKey: Pav
+      sttHipId: 91792
+      endHipId: 93015
+    - signKey: Pav
+      sttHipId: 93015
+      endHipId: 99240
+    - signKey: Pav
+      sttHipId: 93015
+      endHipId: 92609
+    - signKey: Pav
+      sttHipId: 92609
+      endHipId: 90098
+    - signKey: Pav
+      sttHipId: 90098
+      endHipId: 88866
+    - signKey: Pav
+      sttHipId: 88866
+      endHipId: 92609
+    - signKey: Pav
+      sttHipId: 88866
+      endHipId: 86929
+  - SignKey: Peg
+    SignId: 62
+    _lines:
+    - signKey: Peg
+      sttHipId: 1067
+      endHipId: 113963
+    - signKey: Peg
+      sttHipId: 113881
+      endHipId: 112158
+    - signKey: Peg
+      sttHipId: 112158
+      endHipId: 109352
+    - signKey: Peg
+      sttHipId: 113881
+      endHipId: 112748
+    - signKey: Peg
+      sttHipId: 112748
+      endHipId: 112440
+    - signKey: Peg
+      sttHipId: 112440
+      endHipId: 109176
+    - signKey: Peg
+      sttHipId: 109176
+      endHipId: 107354
+    - signKey: Peg
+      sttHipId: 113963
+      endHipId: 112447
+    - signKey: Peg
+      sttHipId: 112447
+      endHipId: 112029
+    - signKey: Peg
+      sttHipId: 112029
+      endHipId: 109427
+    - signKey: Peg
+      sttHipId: 109427
+      endHipId: 107315
+    - signKey: Peg
+      sttHipId: 677
+      endHipId: 113881
+    - signKey: Peg
+      sttHipId: 677
+      endHipId: 1067
+    - signKey: Peg
+      sttHipId: 113881
+      endHipId: 113963
+  - SignKey: Per
+    SignId: 63
+    _lines:
+    - signKey: Per
+      sttHipId: 17448
+      endHipId: 18246
+    - signKey: Per
+      sttHipId: 18246
+      endHipId: 18614
+    - signKey: Per
+      sttHipId: 18614
+      endHipId: 18532
+    - signKey: Per
+      sttHipId: 18532
+      endHipId: 17358
+    - signKey: Per
+      sttHipId: 17358
+      endHipId: 15863
+    - signKey: Per
+      sttHipId: 15863
+      endHipId: 14328
+    - signKey: Per
+      sttHipId: 14328
+      endHipId: 13268
+    - signKey: Per
+      sttHipId: 15863
+      endHipId: 14576
+    - signKey: Per
+      sttHipId: 14576
+      endHipId: 14354
+    - signKey: Per
+      sttHipId: 14354
+      endHipId: 13254
+  - SignKey: Phe
+    SignId: 64
+    _lines:
+    - signKey: Phe
+      sttHipId: 5348
+      endHipId: 5165
+    - signKey: Phe
+      sttHipId: 5165
+      endHipId: 2072
+    - signKey: Phe
+      sttHipId: 2072
+      endHipId: 5348
+    - signKey: Phe
+      sttHipId: 5165
+      endHipId: 7083
+    - signKey: Phe
+      sttHipId: 7083
+      endHipId: 8837
+    - signKey: Phe
+      sttHipId: 8837
+      endHipId: 5165
+    - signKey: Phe
+      sttHipId: 5165
+      endHipId: 6867
+    - signKey: Phe
+      sttHipId: 6867
+      endHipId: 2072
+    - signKey: Phe
+      sttHipId: 2072
+      endHipId: 2081
+    - signKey: Phe
+      sttHipId: 2081
+      endHipId: 765
+    - signKey: Phe
+      sttHipId: 765
+      endHipId: 2072
+  - SignKey: Pic
+    SignId: 65
+    _lines:
+    - signKey: Pic
+      sttHipId: 32607
+      endHipId: 27530
+    - signKey: Pic
+      sttHipId: 27530
+      endHipId: 27321
+  - SignKey: PsA
+    SignId: 66
+    _lines:
+    - signKey: PsA
+      sttHipId: 113368
+      endHipId: 111954
+    - signKey: PsA
+      sttHipId: 111954
+      endHipId: 108661
+    - signKey: PsA
+      sttHipId: 108661
+      endHipId: 107608
+    - signKey: PsA
+      sttHipId: 107608
+      endHipId: 109422
+    - signKey: PsA
+      sttHipId: 109422
+      endHipId: 111188
+    - signKey: PsA
+      sttHipId: 111188
+      endHipId: 113246
+  - SignKey: Psc
+    SignId: 67
+    _lines:
+    - signKey: Psc
+      sttHipId: 4889
+      endHipId: 5742
+    - signKey: Psc
+      sttHipId: 4889
+      endHipId: 6193
+    - signKey: Psc
+      sttHipId: 6193
+      endHipId: 5742
+    - signKey: Psc
+      sttHipId: 5742
+      endHipId: 7097
+    - signKey: Psc
+      sttHipId: 7097
+      endHipId: 8198
+    - signKey: Psc
+      sttHipId: 8198
+      endHipId: 9487
+    - signKey: Psc
+      sttHipId: 9487
+      endHipId: 8833
+    - signKey: Psc
+      sttHipId: 8833
+      endHipId: 7884
+    - signKey: Psc
+      sttHipId: 7884
+      endHipId: 7007
+    - signKey: Psc
+      sttHipId: 7007
+      endHipId: 4906
+    - signKey: Psc
+      sttHipId: 4906
+      endHipId: 3760
+    - signKey: Psc
+      sttHipId: 3760
+      endHipId: 1645
+    - signKey: Psc
+      sttHipId: 1645
+      endHipId: 118268
+    - signKey: Psc
+      sttHipId: 118268
+      endHipId: 116771
+    - signKey: Psc
+      sttHipId: 116771
+      endHipId: 116928
+    - signKey: Psc
+      sttHipId: 116928
+      endHipId: 115738
+    - signKey: Psc
+      sttHipId: 115738
+      endHipId: 114971
+    - signKey: Psc
+      sttHipId: 114971
+      endHipId: 115830
+    - signKey: Psc
+      sttHipId: 115830
+      endHipId: 116771
+  - SignKey: Pup
+    SignId: 68
+    _lines:
+    - signKey: Pup
+      sttHipId: 39757
+      endHipId: 38146
+    - signKey: Pup
+      sttHipId: 38146
+      endHipId: 35264
+    - signKey: Pup
+      sttHipId: 35264
+      endHipId: 31685
+    - signKey: Pup
+      sttHipId: 31685
+      endHipId: 32768
+    - signKey: Pup
+      sttHipId: 32768
+      endHipId: 36377
+    - signKey: Pup
+      sttHipId: 36377
+      endHipId: 39429
+    - signKey: Pup
+      sttHipId: 39429
+      endHipId: 39757
+  - SignKey: Pyx
+    SignId: 69
+    _lines:
+    - signKey: Pyx
+      sttHipId: 42515
+      endHipId: 42828
+    - signKey: Pyx
+      sttHipId: 42828
+      endHipId: 43409
+  - SignKey: Ret
+    SignId: 70
+    _lines:
+    - signKey: Ret
+      sttHipId: 19780
+      endHipId: 19921
+    - signKey: Ret
+      sttHipId: 19921
+      endHipId: 18597
+    - signKey: Ret
+      sttHipId: 18597
+      endHipId: 17440
+    - signKey: Ret
+      sttHipId: 17440
+      endHipId: 19780
+  - SignKey: Scl
+    SignId: 71
+    _lines:
+    - signKey: Scl
+      sttHipId: 116231
+      endHipId: 4577
+    - signKey: Scl
+      sttHipId: 4577
+      endHipId: 115102
+    - signKey: Scl
+      sttHipId: 115102
+      endHipId: 116231
+  - SignKey: Sco
+    SignId: 72
+    _lines:
+    - signKey: Sco
+      sttHipId: 85927
+      endHipId: 86670
+    - signKey: Sco
+      sttHipId: 86670
+      endHipId: 87073
+    - signKey: Sco
+      sttHipId: 87073
+      endHipId: 86228
+    - signKey: Sco
+      sttHipId: 86228
+      endHipId: 84143
+    - signKey: Sco
+      sttHipId: 84143
+      endHipId: 82671
+    - signKey: Sco
+      sttHipId: 82671
+      endHipId: 82514
+    - signKey: Sco
+      sttHipId: 82514
+      endHipId: 82396
+    - signKey: Sco
+      sttHipId: 82396
+      endHipId: 81266
+    - signKey: Sco
+      sttHipId: 81266
+      endHipId: 80763
+    - signKey: Sco
+      sttHipId: 80763
+      endHipId: 78401
+    - signKey: Sco
+      sttHipId: 80763
+      endHipId: 78265
+    - signKey: Sco
+      sttHipId: 80763
+      endHipId: 78820
+  - SignKey: Sct
+    SignId: 73
+    _lines:
+    - signKey: Sct
+      sttHipId: 92175
+      endHipId: 92202
+    - signKey: Sct
+      sttHipId: 92202
+      endHipId: 92814
+    - signKey: Sct
+      sttHipId: 92814
+      endHipId: 90595
+    - signKey: Sct
+      sttHipId: 90595
+      endHipId: 91117
+    - signKey: Sct
+      sttHipId: 91117
+      endHipId: 92175
+  - SignKey: Ser
+    SignId: 74
+    _lines:
+    - signKey: Ser
+      sttHipId: 77516
+      endHipId: 77622
+    - signKey: Ser
+      sttHipId: 77622
+      endHipId: 77070
+    - signKey: Ser
+      sttHipId: 77070
+      endHipId: 76276
+    - signKey: Ser
+      sttHipId: 76276
+      endHipId: 77233
+    - signKey: Ser
+      sttHipId: 77233
+      endHipId: 78072
+    - signKey: Ser
+      sttHipId: 78072
+      endHipId: 77450
+    - signKey: Ser
+      sttHipId: 77450
+      endHipId: 77233
+    - signKey: Ser
+      sttHipId: 92946
+      endHipId: 89962
+    - signKey: Ser
+      sttHipId: 89962
+      endHipId: 86565
+    - signKey: Ser
+      sttHipId: 86565
+      endHipId: 86263
+    - signKey: Ser
+      sttHipId: 86263
+      endHipId: 84880
+  - SignKey: Sex
+    SignId: 75
+    _lines:
+    - signKey: Sex
+      sttHipId: 51437
+      endHipId: 49641
+  - SignKey: Sge
+    SignId: 76
+    _lines:
+    - signKey: Sge
+      sttHipId: 96837
+      endHipId: 97365
+    - signKey: Sge
+      sttHipId: 97365
+      endHipId: 96757
+    - signKey: Sge
+      sttHipId: 97365
+      endHipId: 98337
+    - signKey: Sge
+      sttHipId: 98337
+      endHipId: 98920
+  - SignKey: Sgr
+    SignId: 77
+    _lines:
+    - signKey: Sgr
+      sttHipId: 89931
+      endHipId: 90496
+    - signKey: Sgr
+      sttHipId: 89642
+      endHipId: 90185
+    - signKey: Sgr
+      sttHipId: 90185
+      endHipId: 88635
+    - signKey: Sgr
+      sttHipId: 88635
+      endHipId: 87072
+    - signKey: Sgr
+      sttHipId: 88635
+      endHipId: 89931
+    - signKey: Sgr
+      sttHipId: 89931
+      endHipId: 90185
+    - signKey: Sgr
+      sttHipId: 90185
+      endHipId: 93506
+    - signKey: Sgr
+      sttHipId: 93506
+      endHipId: 92041
+    - signKey: Sgr
+      sttHipId: 92041
+      endHipId: 89931
+    - signKey: Sgr
+      sttHipId: 92041
+      endHipId: 90496
+    - signKey: Sgr
+      sttHipId: 90496
+      endHipId: 89341
+    - signKey: Sgr
+      sttHipId: 93506
+      endHipId: 93864
+    - signKey: Sgr
+      sttHipId: 93864
+      endHipId: 92855
+    - signKey: Sgr
+      sttHipId: 92855
+      endHipId: 92041
+    - signKey: Sgr
+      sttHipId: 92855
+      endHipId: 93085
+    - signKey: Sgr
+      sttHipId: 93085
+      endHipId: 93683
+    - signKey: Sgr
+      sttHipId: 93683
+      endHipId: 94820
+    - signKey: Sgr
+      sttHipId: 94820
+      endHipId: 95168
+    - signKey: Sgr
+      sttHipId: 93864
+      endHipId: 96406
+    - signKey: Sgr
+      sttHipId: 96406
+      endHipId: 98688
+    - signKey: Sgr
+      sttHipId: 98688
+      endHipId: 98412
+    - signKey: Sgr
+      sttHipId: 98412
+      endHipId: 98032
+    - signKey: Sgr
+      sttHipId: 98032
+      endHipId: 95347
+    - signKey: Sgr
+      sttHipId: 98032
+      endHipId: 95294
+  - SignKey: Tau
+    SignId: 78
+    _lines:
+    - signKey: Tau
+      sttHipId: 25428
+      endHipId: 21881
+    - signKey: Tau
+      sttHipId: 21881
+      endHipId: 20889
+    - signKey: Tau
+      sttHipId: 21421
+      endHipId: 26451
+    - signKey: Tau
+      sttHipId: 20205
+      endHipId: 20455
+    - signKey: Tau
+      sttHipId: 20205
+      endHipId: 18724
+    - signKey: Tau
+      sttHipId: 18724
+      endHipId: 15900
+    - signKey: Tau
+      sttHipId: 21421
+      endHipId: 20889
+    - signKey: Tau
+      sttHipId: 21421
+      endHipId: 20894
+    - signKey: Tau
+      sttHipId: 20894
+      endHipId: 20205
+    - signKey: Tau
+      sttHipId: 20889
+      endHipId: 20648
+    - signKey: Tau
+      sttHipId: 20648
+      endHipId: 20455
+    - signKey: Tau
+      sttHipId: 20455
+      endHipId: 17847
+  - SignKey: Tel
+    SignId: 79
+    _lines:
+    - signKey: Tel
+      sttHipId: 90568
+      endHipId: 90422
+  - SignKey: TrA
+    SignId: 80
+    _lines:
+    - signKey: TrA
+      sttHipId: 82273
+      endHipId: 74946
+    - signKey: TrA
+      sttHipId: 74946
+      endHipId: 77952
+    - signKey: TrA
+      sttHipId: 77952
+      endHipId: 82273
+  - SignKey: Tri
+    SignId: 81
+    _lines:
+    - signKey: Tri
+      sttHipId: 10559
+      endHipId: 10064
+    - signKey: Tri
+      sttHipId: 10064
+      endHipId: 8796
+    - signKey: Tri
+      sttHipId: 8796
+      endHipId: 10559
+  - SignKey: Tuc
+    SignId: 82
+    _lines:
+    - signKey: Tuc
+      sttHipId: 110130
+      endHipId: 114996
+    - signKey: Tuc
+      sttHipId: 114996
+      endHipId: 1599
+    - signKey: Tuc
+      sttHipId: 114996
+      endHipId: 2484
+  - SignKey: UMa
+    SignId: 83
+    _lines:
+    - signKey: UMa
+      sttHipId: 67301
+      endHipId: 65378
+    - signKey: UMa
+      sttHipId: 65378
+      endHipId: 62956
+    - signKey: UMa
+      sttHipId: 62956
+      endHipId: 59774
+    - signKey: UMa
+      sttHipId: 59774
+      endHipId: 54061
+    - signKey: UMa
+      sttHipId: 54061
+      endHipId: 53910
+    - signKey: UMa
+      sttHipId: 53910
+      endHipId: 58001
+    - signKey: UMa
+      sttHipId: 58001
+      endHipId: 59774
+    - signKey: UMa
+      sttHipId: 58001
+      endHipId: 57399
+    - signKey: UMa
+      sttHipId: 57399
+      endHipId: 54539
+    - signKey: UMa
+      sttHipId: 54539
+      endHipId: 50372
+    - signKey: UMa
+      sttHipId: 54539
+      endHipId: 50801
+    - signKey: UMa
+      sttHipId: 53910
+      endHipId: 48402
+    - signKey: UMa
+      sttHipId: 48402
+      endHipId: 46853
+    - signKey: UMa
+      sttHipId: 46853
+      endHipId: 44471
+    - signKey: UMa
+      sttHipId: 46853
+      endHipId: 44127
+    - signKey: UMa
+      sttHipId: 48402
+      endHipId: 48319
+    - signKey: UMa
+      sttHipId: 48319
+      endHipId: 41704
+    - signKey: UMa
+      sttHipId: 41704
+      endHipId: 46733
+    - signKey: UMa
+      sttHipId: 46733
+      endHipId: 54061
+  - SignKey: UMi
+    SignId: 84
+    _lines:
+    - signKey: UMi
+      sttHipId: 11767
+      endHipId: 85822
+    - signKey: UMi
+      sttHipId: 85822
+      endHipId: 82080
+    - signKey: UMi
+      sttHipId: 82080
+      endHipId: 77055
+    - signKey: UMi
+      sttHipId: 77055
+      endHipId: 79822
+    - signKey: UMi
+      sttHipId: 79822
+      endHipId: 75097
+    - signKey: UMi
+      sttHipId: 75097
+      endHipId: 72607
+    - signKey: UMi
+      sttHipId: 72607
+      endHipId: 77055
+  - SignKey: Vel
+    SignId: 85
+    _lines:
+    - signKey: Vel
+      sttHipId: 39953
+      endHipId: 42536
+    - signKey: Vel
+      sttHipId: 42536
+      endHipId: 42913
+    - signKey: Vel
+      sttHipId: 42913
+      endHipId: 45941
+    - signKey: Vel
+      sttHipId: 45941
+      endHipId: 48774
+    - signKey: Vel
+      sttHipId: 48774
+      endHipId: 52727
+    - signKey: Vel
+      sttHipId: 52727
+      endHipId: 51986
+    - signKey: Vel
+      sttHipId: 51986
+      endHipId: 50191
+    - signKey: Vel
+      sttHipId: 50191
+      endHipId: 46651
+    - signKey: Vel
+      sttHipId: 46651
+      endHipId: 44816
+    - signKey: Vel
+      sttHipId: 44816
+      endHipId: 39953
+  - SignKey: Vir
+    SignId: 86
+    _lines:
+    - signKey: Vir
+      sttHipId: 57380
+      endHipId: 60030
+    - signKey: Vir
+      sttHipId: 60030
+      endHipId: 61941
+    - signKey: Vir
+      sttHipId: 61941
+      endHipId: 65474
+    - signKey: Vir
+      sttHipId: 65474
+      endHipId: 69427
+    - signKey: Vir
+      sttHipId: 69427
+      endHipId: 69701
+    - signKey: Vir
+      sttHipId: 69701
+      endHipId: 71957
+    - signKey: Vir
+      sttHipId: 65474
+      endHipId: 66249
+    - signKey: Vir
+      sttHipId: 66249
+      endHipId: 68520
+    - signKey: Vir
+      sttHipId: 68520
+      endHipId: 72220
+    - signKey: Vir
+      sttHipId: 66249
+      endHipId: 63090
+    - signKey: Vir
+      sttHipId: 63090
+      endHipId: 63608
+    - signKey: Vir
+      sttHipId: 63090
+      endHipId: 61941
+  - SignKey: Vol
+    SignId: 87
+    _lines:
+    - signKey: Vol
+      sttHipId: 37504
+      endHipId: 34481
+    - signKey: Vol
+      sttHipId: 34481
+      endHipId: 39794
+    - signKey: Vol
+      sttHipId: 39794
+      endHipId: 37504
+    - signKey: Vol
+      sttHipId: 39794
+      endHipId: 35228
+    - signKey: Vol
+      sttHipId: 39794
+      endHipId: 41312
+    - signKey: Vol
+      sttHipId: 41312
+      endHipId: 44382
+    - signKey: Vol
+      sttHipId: 44382
+      endHipId: 39794
+  - SignKey: Vul
+    SignId: 88
+    _lines:
+    - signKey: Vul
+      sttHipId: 95771
+      endHipId: 98543

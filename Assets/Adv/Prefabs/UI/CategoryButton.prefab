@@ -76,9 +76,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0769663df83e416e89fb1cfba8cfd5da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left: {fileID: 21300000, guid: 06a95a378c573c5498e41859ff3dbe60, type: 3}
-  center: {fileID: 21300000, guid: 0cb58da0bd2efbd48a8aa15be7e20e69, type: 3}
-  right: {fileID: 21300000, guid: b3eb09d4f456cc94389012520b912961, type: 3}
+  left: {fileID: 21300000, guid: b963ee2f3b209434f94270d5f99fe099, type: 3}
+  center: {fileID: 21300000, guid: 30f9c472649003e44a578f8d44f83cf5, type: 3}
+  right: {fileID: 21300000, guid: e7c51c0c03f76e841a7f07ce998ddb3a, type: 3}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 06a95a378c573c5498e41859ff3dbe60, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b963ee2f3b209434f94270d5f99fe099, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -121,8 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7338c13e8f0b4173bd506c6aa80f0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clicked: {fileID: 8300000, guid: 4992a70f4d3483e4bb2a376e3ce78a9f, type: 3}
-  highlited: {fileID: 8300000, guid: 38078622afe9cf24a8c5f9fc7f24ccb8, type: 3}
+  clicked: {fileID: 8300000, guid: f63cd93abb3434f4b9ef517ba25803be, type: 3}
+  highlited: {fileID: 8300000, guid: 1657693b59809354d9a0d145cc78b603, type: 3}
   clickedPlayMode: 0
   highlitedPlayMode: 0
 --- !u!114 &11400000
@@ -257,8 +257,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u30AB\u30C6\u30B4\u30EA\u540D"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 68719302e30ac164c9eeac20ca878d16, type: 2}
-  m_sharedMaterial: {fileID: -1686075178704036061, guid: 68719302e30ac164c9eeac20ca878d16, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5a916f6dff71f494ab6b7006de3651f7, type: 2}
+  m_sharedMaterial: {fileID: -1686075178704036061, guid: 5a916f6dff71f494ab6b7006de3651f7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dee29ebf0c632f444aecf1008ca57caa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94fd1de9f9847fe4391138a0451300eb, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -412,6 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0769663df83e416e89fb1cfba8cfd5da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  left: {fileID: 21300000, guid: dee29ebf0c632f444aecf1008ca57caa, type: 3}
-  center: {fileID: 21300000, guid: 1b5dac4a12cfc734e905bc66d997f548, type: 3}
-  right: {fileID: 21300000, guid: e0437d07f4fc7c147a529f04a777e04e, type: 3}
+  left: {fileID: 21300000, guid: 94fd1de9f9847fe4391138a0451300eb, type: 3}
+  center: {fileID: 21300000, guid: c79c072eacd3a6d46b9789b0fe13585e, type: 3}
+  right: {fileID: 21300000, guid: 3f41b6bbc1d82a848aab76ec8073f350, type: 3}
