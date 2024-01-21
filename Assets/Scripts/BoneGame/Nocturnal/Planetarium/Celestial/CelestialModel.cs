@@ -61,8 +61,7 @@ namespace BoneGame.Data.Celestial
         /// <returns></returns>
         public float GetAngle(float time)
         {
-            float degrees = (_startDegrees + time * DegreesPerSecond) % 360;
-            return degrees;
+            return DegreesPerSecond / 100f;
         }
     }
 }

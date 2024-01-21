@@ -33,6 +33,8 @@ namespace BoneGame.Nocturnal.Planetarium
 
             // いったん日本の9月で決め打ち
             _celestial.Initialization(135,270,time);
+            
+            time.StartTimer();
 
         }
     }

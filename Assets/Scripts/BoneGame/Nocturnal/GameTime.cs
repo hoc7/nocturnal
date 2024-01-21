@@ -19,8 +19,8 @@ namespace BoneGame.Data
 
         public void StartTimer()
         {        
-            Observable.Interval(TimeSpan.FromSeconds(1))
-                .TakeWhile(_ => _timeElapsed.Value < 180)
+            Observable.Interval(TimeSpan.FromMilliseconds(10))
+                .TakeWhile(_ => _timeElapsed.Value < 18000)
                 .Do(_ => _timeElapsed.Value++)
                 .Do(_ => CheckIfTimerElapsed())
                 .Subscribe()
@@ -29,7 +29,7 @@ namespace BoneGame.Data
 
         private void CheckIfTimerElapsed()
         {
-            if (_timeElapsed.Value >= 180)
+            if (_timeElapsed.Value >= 18000)
             {
                 _timerElapsedSubject.OnNext(Unit.Default);
             }
