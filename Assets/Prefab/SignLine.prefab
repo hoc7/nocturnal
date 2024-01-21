@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 530810315198974879}
   - component: {fileID: 2950338310982159734}
   m_Layer: 0
-  m_Name: 'StarLine '
+  m_Name: SignLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e110a196f88a489c851ed86f5fc80e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LineRenderer: {fileID: 2950338310982159734}
+  _lineRenderer: {fileID: 2950338310982159734}
+  DefaultLineWidth: 1
 --- !u!120 &2950338310982159734
 LineRenderer:
   serializedVersion: 2

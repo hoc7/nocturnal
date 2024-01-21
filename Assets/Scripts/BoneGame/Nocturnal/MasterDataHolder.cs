@@ -66,6 +66,11 @@ namespace BoneGame.Data
             return starMasters.GetStars;
         }
 
+        public List<SignData> GetAllSign()
+        {
+            return signMasters.GetAllSignData();
+        }
+
         /// <summary>
         /// 星座データの取得
         /// </summary>

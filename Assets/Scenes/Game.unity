@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 141329039}
   - component: {fileID: 141329038}
   - component: {fileID: 141329037}
+  - component: {fileID: 141329040}
   m_Layer: 0
   m_Name: Celestial
   m_TagString: Untagged
@@ -168,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _view: {fileID: 141329037}
+  _signLineView: {fileID: 141329040}
 --- !u!4 &141329039
 Transform:
   m_ObjectHideFlags: 0
@@ -183,6 +185,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &141329040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141329036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57f5fd0bd7e45b88ec3342f138d0d12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 5401231606878473331, guid: 04568a63f6e2ccf45aa2e955379b3623, type: 3}
+  CelestialTransform: {fileID: 141329039}
 --- !u!1 &166978030
 GameObject:
   m_ObjectHideFlags: 0

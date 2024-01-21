@@ -5,8 +5,10 @@ namespace BoneGame.Nocturnal.Planetarium
 {
     public class StarView : MonoBehaviour
     {
+        public int HitId;
         public void Set(StarData hipData)
         {
+            HitId = hipData.HitId;
             float scale = 3f + 1f / hipData.Magnitude;
             this.transform.position = hipData.GetPosition;
             this.transform.localScale = new Vector3(scale, scale, scale);

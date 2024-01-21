@@ -1,4 +1,5 @@
 ﻿using System.Net.NetworkInformation;
+using BoneGame.Nocturnal.Planetarium.Celestial;
 using Cysharp.Threading.Tasks;
 using UniRx;
 using UnityEngine;
@@ -23,6 +24,11 @@ namespace BoneGame.Data.Celestial
         [SerializeField] private CelestialView _view;
 
         /// <summary>
+        /// 星座線の見かけを描画するクラス
+        /// </summary>
+        [SerializeField] private SignLineView _signLineView; 
+
+        /// <summary>
         /// 緯度を入力して初期化
         /// </summary>
         /// <param name="latitude">緯度</param>
@@ -45,6 +51,7 @@ namespace BoneGame.Data.Celestial
             }).AddTo(this);
             
             _view.CreateStars(_celestialModel.GetDisplayStarData());
+            _signLineView.DrawAllSignLine(MasterDataHolder.Instance.GetAllSign());
         }
 
         /// <summary>
