@@ -1,5 +1,4 @@
-﻿using System;
-using UniRx;
+﻿using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +8,7 @@ namespace BoneGame.Nocturnal.Planetarium
     public class CameraController : MonoBehaviour,IDragComponent
     {
         [SerializeField] private Slider ZoomSlider;
-        [SerializeField]
-        Camera Camera;
+        [SerializeField] UnityEngine.Camera Camera;
 
         public float LatitudeAdjust;
         public float rotationSpeed = 5.0f;
