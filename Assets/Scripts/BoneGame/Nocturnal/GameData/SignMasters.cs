@@ -26,6 +26,16 @@ namespace BoneGame.Nocturnal.Data
         {
             return Signs;
         }
+
+        /// <summary>
+        /// 集められた星の集団からSignがあれば
+        /// </summary>
+        /// <param name="starDatas"></param>
+        /// <returns></returns>
+        public List<SignData> GetContainSigns(List<int> hitIds)
+        {
+            return Signs.Where(_ => _.IsContainSigtn(hitIds)).ToList();
+        }
         
 #if UNITY_EDITOR
 

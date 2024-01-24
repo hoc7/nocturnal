@@ -66,6 +66,11 @@ namespace BoneGame.Data
             return starMasters.GetStars;
         }
 
+        public List<SignData> GetContainSigns(List<int> hitIds)
+        {
+            return signMasters.GetContainSigns(hitIds);
+        }
+
         public List<SignData> GetAllSign()
         {
             return signMasters.GetAllSignData();
