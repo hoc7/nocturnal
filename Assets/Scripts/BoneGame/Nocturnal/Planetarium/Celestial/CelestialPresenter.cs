@@ -15,7 +15,6 @@ namespace BoneGame.Data.Celestial
         /// 天球に関連する情報を保持したモデル
         /// </summary>
         private CelestialModel _celestialModel;
-
         private GameTime _gameTime;
 
         /// <summary>
@@ -38,7 +37,6 @@ namespace BoneGame.Data.Celestial
         {
             _celestialModel = new CelestialModel(latitude,startDegrees,MasterDataHolder.Instance.GetAllStar());
             _view.InitAxis(CelestialModel.Declination);
-            
             gameTime.TimeElapsed.Subscribe(_ =>
             {
                 _view.SetAngle(_celestialModel.GetAngle(_));
