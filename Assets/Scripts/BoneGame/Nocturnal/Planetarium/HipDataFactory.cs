@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using BoneGame.Data;
 using UnityEngine;
 
 namespace BoneGame.Nocturnal.Planetarium
@@ -79,20 +80,18 @@ namespace BoneGame.Nocturnal.Planetarium
             {
                 // 文字列をint,floatに変換する
                 int hipId = int.Parse(dataArr[0]);
-                float hlH = float.Parse(dataArr[1]);
-                float hlM = float.Parse(dataArr[2]);
-                float hlS = float.Parse(dataArr[3]);
-                int hsSgn = int.Parse(dataArr[4]);
-                float hsH = float.Parse(dataArr[5]);
-                float hsM = float.Parse(dataArr[6]);
-                float hsS = float.Parse(dataArr[7]);
+                int raH = int.Parse(dataArr[1]);
+                int raM = int.Parse(dataArr[2]);
+                float raS = float.Parse(dataArr[3]);
+                int decSign = int.Parse(dataArr[4]);
+                int decH = int.Parse(dataArr[5]);
+                int decM = int.Parse(dataArr[6]);
+                float decS = float.Parse(dataArr[7]);
                 float mag = float.Parse(dataArr[8]);
                 Color col = Color.gray;
-                float hDeg = (360f / 24f) * (hlH + hlM / 60f + hlS / 3600f);
-                float sDeg = (hsH + hsM / 60f + hsS / 3600f) * (hsSgn == 0 ? -1f : 1f);
-                Quaternion rotL = Quaternion.AngleAxis(hDeg, Vector3.up);
-                Quaternion rotS = Quaternion.AngleAxis(sDeg, Vector3.right);
-                Vector3 pos = rotL * rotS * Vector3.forward;
+                Quaternion ra = AstroCalculation.GetRaToCelestialQuaternion(raH, raM, raS);
+                Quaternion dec = AstroCalculation.GetDecToCelestialQuaternion(decH, decM, decS, decSign);
+                Vector3 pos = AstroCalculation.GetStarPosition(dec, ra);
                 data = new StarData(hipId, pos, Color.white, mag);
             }
             catch

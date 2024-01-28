@@ -59,6 +59,8 @@ namespace BoneGame.Nocturnal.Planetarium
         {
             return _plane.transform.up;
         }
+
+
         
     }
 }

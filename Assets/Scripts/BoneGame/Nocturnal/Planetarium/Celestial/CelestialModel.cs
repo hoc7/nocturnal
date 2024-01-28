@@ -8,10 +8,7 @@ namespace BoneGame.Data.Celestial
     /// </summary>
     public class CelestialModel
     {
-        /// <summary>
-        /// 地軸の傾き
-        /// </summary>
-        public const float Declination = 23.5f;
+
 
         /// <summary>
         /// 1秒間に回転する角度

@@ -11,15 +11,28 @@ namespace BoneGame.Data.Celestial
     {
         [SerializeField] private GameObject Prefab;
         [SerializeField] private Transform CelestialTransform;
+        [SerializeField] private LineRenderer _earthAxisView;
         private Vector3 axis;
         /// <summary>
         /// 地軸の傾きを初期設定する
         /// </summary>
         /// <param name="degrees"></param>
-        public void InitAxis(float degrees)
+        public void InitAxis()
         {
-            axis = new Vector3(0, degrees, 0);
-            CelestialTransform.rotation = Quaternion.Euler(axis);
+            axis = AstroCalculation.GetEarthAxis();
+            DrawAxis();
+            //CelestialTransform.rotation = Quaternion.Euler(axis);
+        }
+
+        private void DrawAxis()
+        {
+            Vector3 northPole = new Vector3(0, 2000, 0);
+            Vector3 southPole = new Vector3(0, -2000, 0);
+            _earthAxisView.positionCount = 2;
+            _earthAxisView.startWidth = 0.1f; // 線の開始部分の太さを設定
+            _earthAxisView.endWidth = 0.1f; // 線の終了部分の太さを設定
+            _earthAxisView.SetPosition(0, northPole);
+            _earthAxisView.SetPosition(1, southPole);
         }
    
         /// <summary>
@@ -44,5 +57,6 @@ namespace BoneGame.Data.Celestial
                 starView.Set(star);
             }
         }
+        
     }
 }

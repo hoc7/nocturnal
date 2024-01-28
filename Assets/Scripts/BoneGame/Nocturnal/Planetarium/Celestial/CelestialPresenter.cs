@@ -36,7 +36,7 @@ namespace BoneGame.Data.Celestial
         public void Initialization(float latitude,float startDegrees,GameTime gameTime)
         {
             _celestialModel = new CelestialModel(latitude,startDegrees,MasterDataHolder.Instance.GetAllStar());
-            _view.InitAxis(CelestialModel.Declination);
+            _view.InitAxis();
             gameTime.TimeElapsed.Subscribe(_ =>
             {
                 _view.SetAngle(_celestialModel.GetAngle(_));
