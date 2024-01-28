@@ -1,4 +1,5 @@
-﻿using System.Net.NetworkInformation;
+﻿using System;
+using System.Net.NetworkInformation;
 using BoneGame.Nocturnal.Planetarium.Celestial;
 using Cysharp.Threading.Tasks;
 using UniRx;
@@ -37,9 +38,10 @@ namespace BoneGame.Data.Celestial
         {
             _celestialModel = new CelestialModel(latitude,startDegrees,MasterDataHolder.Instance.GetAllStar());
             _view.InitAxis();
+            _view.InitRotate(_celestialModel.GetStartDegrees());
             gameTime.TimeElapsed.Subscribe(_ =>
             {
-                _view.SetAngle(_celestialModel.GetAngle(_));
+                _view.SetAngle(_celestialModel.GetAngle());
             }).AddTo(this);
 
             gameTime.TimerIsEnd.Subscribe(_ =>

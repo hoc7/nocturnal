@@ -23,10 +23,13 @@ MonoBehaviour:
     SerializationNodes: []
   Id: 0
   Name: 
+  NameCsv: {fileID: 4900000, guid: e522d790c9d24ad4b982af5868f313d9, type: 3}
   HipData:
   - {fileID: 4900000, guid: 5b3f37de4a9e930499480d500cfd933b, type: 3}
   Signs:
   - SignKey: And
+    EngName: Andromeda
+    JapName: "\u30A2\u30F3\u30C9\u30ED\u30E1\u30C0"
     SignId: 1
     _lines:
     - signKey: And
@@ -45,12 +48,16 @@ MonoBehaviour:
       sttHipId: 4436
       endHipId: 3881
   - SignKey: Ant
+    EngName: Antlia
+    JapName: "\u30DD\u30F3\u30D7"
     SignId: 2
     _lines:
     - signKey: Ant
       sttHipId: 51172
       endHipId: 48926
   - SignKey: Aps
+    EngName: Apus
+    JapName: "\u3075\u3046\u3061\u3087\u3046"
     SignId: 3
     _lines:
     - signKey: Aps
@@ -60,6 +67,8 @@ MonoBehaviour:
       sttHipId: 81065
       endHipId: 81852
   - SignKey: Aql
+    EngName: Aquila
+    JapName: "\u308F\u3057"
     SignId: 4
     _lines:
     - signKey: Aql
@@ -87,6 +96,8 @@ MonoBehaviour:
       sttHipId: 95501
       endHipId: 93805
   - SignKey: Aqr
+    EngName: Aquarius
+    JapName: "\u307F\u305A\u304C\u3081"
     SignId: 5
     _lines:
     - signKey: Aqr
@@ -132,6 +143,8 @@ MonoBehaviour:
       sttHipId: 102618
       endHipId: 106278
   - SignKey: Ara
+    EngName: Ara
+    JapName: "\u3055\u3044\u3060\u3093"
     SignId: 6
     _lines:
     - signKey: Ara
@@ -156,6 +169,8 @@ MonoBehaviour:
       sttHipId: 85258
       endHipId: 88714
   - SignKey: Ari
+    EngName: Aries
+    JapName: "\u304A\u3072\u3064\u3058"
     SignId: 7
     _lines:
     - signKey: Ari
@@ -168,6 +183,8 @@ MonoBehaviour:
       sttHipId: 8903
       endHipId: 8832
   - SignKey: Aur
+    EngName: Auriga
+    JapName: "\u304E\u3087\u3057\u3083"
     SignId: 8
     _lines:
     - signKey: Aur
@@ -189,6 +206,8 @@ MonoBehaviour:
       sttHipId: 25428
       endHipId: 28380
   - SignKey: Boo
+    EngName: Bootes
+    JapName: "\u3046\u3057\u304B\u3044"
     SignId: 9
     _lines:
     - signKey: Boo
@@ -219,6 +238,8 @@ MonoBehaviour:
       sttHipId: 67927
       endHipId: 67459
   - SignKey: Cae
+    EngName: Caelum
+    JapName: "\u3061\u3087\u3046\u3053\u304F\u3050"
     SignId: 10
     _lines:
     - signKey: Cae
@@ -228,6 +249,8 @@ MonoBehaviour:
       sttHipId: 21770
       endHipId: 21861
   - SignKey: Cam
+    EngName: Camelopardalis
+    JapName: "\u304D\u308A\u3093"
     SignId: 11
     _lines:
     - signKey: Cam
@@ -246,6 +269,8 @@ MonoBehaviour:
       sttHipId: 17959
       endHipId: 25110
   - SignKey: Cap
+    EngName: Capricornus
+    JapName: "\u3084\u304E"
     SignId: 12
     _lines:
     - signKey: Cap
@@ -276,6 +301,8 @@ MonoBehaviour:
       sttHipId: 104139
       endHipId: 102978
   - SignKey: Car
+    EngName: Carina
+    JapName: "\u308A\u3085\u3046\u3053\u3064"
     SignId: 13
     _lines:
     - signKey: Car
@@ -321,6 +348,8 @@ MonoBehaviour:
       sttHipId: 41037
       endHipId: 39429
   - SignKey: Cas
+    EngName: Cassiopeia
+    JapName: "\u30AB\u30B7\u30AA\u30DA\u30E4"
     SignId: 14
     _lines:
     - signKey: Cas
@@ -336,6 +365,8 @@ MonoBehaviour:
       sttHipId: 3179
       endHipId: 746
   - SignKey: Cen
+    EngName: Centaurus
+    JapName: "\u30B1\u30F3\u30BF\u30A6\u30EB\u30B9"
     SignId: 15
     _lines:
     - signKey: Cen
@@ -387,6 +418,8 @@ MonoBehaviour:
       sttHipId: 56480
       endHipId: 56561
   - SignKey: Cep
+    EngName: Cepheus
+    JapName: "\u30B1\u30D5\u30A7\u30A6\u30B9"
     SignId: 16
     _lines:
     - signKey: Cep
@@ -408,6 +441,8 @@ MonoBehaviour:
       sttHipId: 116727
       endHipId: 106032
   - SignKey: Cet
+    EngName: Cetus
+    JapName: "\u304F\u3058\u3089"
     SignId: 17
     _lines:
     - signKey: Cet
@@ -471,6 +506,8 @@ MonoBehaviour:
       sttHipId: 12093
       endHipId: 12706
   - SignKey: Cha
+    EngName: Chamaeleon
+    JapName: "\u30AB\u30E1\u30EC\u30AA\u30F3"
     SignId: 18
     _lines:
     - signKey: Cha
@@ -480,6 +517,8 @@ MonoBehaviour:
       sttHipId: 51839
       endHipId: 60000
   - SignKey: Cir
+    EngName: Circinus
+    JapName: "\u30B3\u30F3\u30D1\u30B9"
     SignId: 19
     _lines:
     - signKey: Cir
@@ -489,6 +528,8 @@ MonoBehaviour:
       sttHipId: 71908
       endHipId: 74824
   - SignKey: CMa
+    EngName: Canis Major
+    JapName: "\u304A\u304A\u3044\u306C"
     SignId: 20
     _lines:
     - signKey: CMa
@@ -543,12 +584,16 @@ MonoBehaviour:
       sttHipId: 33347
       endHipId: 33160
   - SignKey: CMi
+    EngName: Canis Minor
+    JapName: "\u3053\u3044\u306C"
     SignId: 21
     _lines:
     - signKey: CMi
       sttHipId: 37279
       endHipId: 36188
   - SignKey: Cnc
+    EngName: Cancer
+    JapName: "\u304B\u306B"
     SignId: 22
     _lines:
     - signKey: Cnc
@@ -567,6 +612,8 @@ MonoBehaviour:
       sttHipId: 42911
       endHipId: 44066
   - SignKey: Col
+    EngName: Columba
+    JapName: "\u306F\u3068"
     SignId: 23
     _lines:
     - signKey: Col
@@ -588,6 +635,8 @@ MonoBehaviour:
       sttHipId: 26634
       endHipId: 25859
   - SignKey: Com
+    EngName: Coma Berenices
+    JapName: "\u304B\u307F\u306E\u3051"
     SignId: 24
     _lines:
     - signKey: Com
@@ -597,6 +646,8 @@ MonoBehaviour:
       sttHipId: 64394
       endHipId: 60742
   - SignKey: CrA
+    EngName: Corona Australis
+    JapName: "\u307F\u306A\u307F\u306E\u304B\u3093\u3080\u308A"
     SignId: 25
     _lines:
     - signKey: CrA
@@ -627,6 +678,8 @@ MonoBehaviour:
       sttHipId: 91875
       endHipId: 90887
   - SignKey: CrB
+    EngName: Corona Borealis
+    JapName: "\u304B\u3093\u3080\u308A"
     SignId: 26
     _lines:
     - signKey: CrB
@@ -648,6 +701,8 @@ MonoBehaviour:
       sttHipId: 78159
       endHipId: 78493
   - SignKey: Crt
+    EngName: Crater
+    JapName: "\u30B3\u30C3\u30D7"
     SignId: 27
     _lines:
     - signKey: Crt
@@ -678,6 +733,8 @@ MonoBehaviour:
       sttHipId: 57283
       endHipId: 55705
   - SignKey: Cru
+    EngName: Crux
+    JapName: "\u307F\u306A\u307F\u3058\u3085\u3046\u3058"
     SignId: 28
     _lines:
     - signKey: Cru
@@ -687,6 +744,8 @@ MonoBehaviour:
       sttHipId: 62434
       endHipId: 59747
   - SignKey: Crv
+    EngName: Corvus
+    JapName: "\u304B\u3089\u3059"
     SignId: 29
     _lines:
     - signKey: Crv
@@ -708,12 +767,16 @@ MonoBehaviour:
       sttHipId: 61359
       endHipId: 60965
   - SignKey: CVn
+    EngName: Canes Venatici
+    JapName: "\u308A\u3087\u3046\u3051\u3093"
     SignId: 30
     _lines:
     - signKey: CVn
       sttHipId: 61317
       endHipId: 63125
   - SignKey: Cyg
+    EngName: Cygnus
+    JapName: "\u306F\u304F\u3061\u3087\u3046"
     SignId: 31
     _lines:
     - signKey: Cyg
@@ -744,6 +807,8 @@ MonoBehaviour:
       sttHipId: 98110
       endHipId: 95947
   - SignKey: Del
+    EngName: Delphinus
+    JapName: "\u3044\u308B\u304B"
     SignId: 32
     _lines:
     - signKey: Del
@@ -762,6 +827,8 @@ MonoBehaviour:
       sttHipId: 102281
       endHipId: 101769
   - SignKey: Dor
+    EngName: Dorado
+    JapName: "\u304B\u3058\u304D"
     SignId: 33
     _lines:
     - signKey: Dor
@@ -780,6 +847,8 @@ MonoBehaviour:
       sttHipId: 21281
       endHipId: 19893
   - SignKey: Dra
+    EngName: Draco
+    JapName: "\u308A\u3085\u3046"
     SignId: 34
     _lines:
     - signKey: Dra
@@ -825,6 +894,8 @@ MonoBehaviour:
       sttHipId: 61281
       endHipId: 56211
   - SignKey: Equ
+    EngName: Equuleus
+    JapName: "\u3053\u3046\u307E"
     SignId: 35
     _lines:
     - signKey: Equ
@@ -840,6 +911,8 @@ MonoBehaviour:
       sttHipId: 104987
       endHipId: 104521
   - SignKey: Eri
+    EngName: Eridanus
+    JapName: "\u30A8\u30EA\u30C0\u30CC\u30B9"
     SignId: 36
     _lines:
     - signKey: Eri
@@ -924,12 +997,16 @@ MonoBehaviour:
       sttHipId: 23972
       endHipId: 21594
   - SignKey: For
+    EngName: Fornax
+    JapName: "\u308D"
     SignId: 37
     _lines:
     - signKey: For
       sttHipId: 13147
       endHipId: 14879
   - SignKey: Gem
+    EngName: Gemini
+    JapName: "\u3075\u305F\u3054"
     SignId: 38
     _lines:
     - signKey: Gem
@@ -981,6 +1058,8 @@ MonoBehaviour:
       sttHipId: 29655
       endHipId: 28734
   - SignKey: Gru
+    EngName: Grus
+    JapName: "\u3064\u308B"
     SignId: 39
     _lines:
     - signKey: Gru
@@ -1011,6 +1090,8 @@ MonoBehaviour:
       sttHipId: 109111
       endHipId: 108085
   - SignKey: Her
+    EngName: Hercules
+    JapName: "\u30D8\u30EB\u30AF\u30EC\u30B9"
     SignId: 40
     _lines:
     - signKey: Her
@@ -1068,6 +1149,8 @@ MonoBehaviour:
       sttHipId: 83207
       endHipId: 84380
   - SignKey: Hor
+    EngName: Horologium
+    JapName: "\u3068\u3051\u3044"
     SignId: 41
     _lines:
     - signKey: Hor
@@ -1077,6 +1160,8 @@ MonoBehaviour:
       sttHipId: 12484
       endHipId: 14240
   - SignKey: Hya
+    EngName: Hydra
+    JapName: "\u3046\u307F\u3078\u3073"
     SignId: 42
     _lines:
     - signKey: Hya
@@ -1134,6 +1219,8 @@ MonoBehaviour:
       sttHipId: 64166
       endHipId: 64962
   - SignKey: Hyi
+    EngName: Hydrus
+    JapName: "\u307F\u305A\u3078\u3073"
     SignId: 43
     _lines:
     - signKey: Hyi
@@ -1149,6 +1236,8 @@ MonoBehaviour:
       sttHipId: 11001
       endHipId: 9236
   - SignKey: Ind
+    EngName: Indus
+    JapName: "\u30A4\u30F3\u30C7\u30A3\u30A2\u30F3"
     SignId: 44
     _lines:
     - signKey: Ind
@@ -1161,6 +1250,8 @@ MonoBehaviour:
       sttHipId: 103227
       endHipId: 105319
   - SignKey: Lac
+    EngName: Lacerta
+    JapName: "\u3068\u304B\u3052"
     SignId: 45
     _lines:
     - signKey: Lac
@@ -1182,6 +1273,8 @@ MonoBehaviour:
       sttHipId: 111169
       endHipId: 111022
   - SignKey: Leo
+    EngName: Leo
+    JapName: "\u3057\u3057"
     SignId: 46
     _lines:
     - signKey: Leo
@@ -1215,6 +1308,8 @@ MonoBehaviour:
       sttHipId: 54872
       endHipId: 54879
   - SignKey: Lep
+    EngName: Lepus
+    JapName: "\u3046\u3055\u304E"
     SignId: 47
     _lines:
     - signKey: Lep
@@ -1260,6 +1355,8 @@ MonoBehaviour:
       sttHipId: 24845
       endHipId: 24873
   - SignKey: Lib
+    EngName: Libra
+    JapName: "\u3066\u3093\u3073\u3093"
     SignId: 48
     _lines:
     - signKey: Lib
@@ -1278,6 +1375,8 @@ MonoBehaviour:
       sttHipId: 73714
       endHipId: 76333
   - SignKey: LMi
+    EngName: Leo Minor
+    JapName: "\u3053\u3058\u3057"
     SignId: 49
     _lines:
     - signKey: LMi
@@ -1293,6 +1392,8 @@ MonoBehaviour:
       sttHipId: 49593
       endHipId: 53229
   - SignKey: Lup
+    EngName: Lupus
+    JapName: "\u304A\u304A\u304B\u307F"
     SignId: 50
     _lines:
     - signKey: Lup
@@ -1335,6 +1436,8 @@ MonoBehaviour:
       sttHipId: 71860
       endHipId: 73273
   - SignKey: Lyn
+    EngName: Lynx
+    JapName: "\u3084\u307E\u306D\u3053"
     SignId: 51
     _lines:
     - signKey: Lyn
@@ -1359,6 +1462,8 @@ MonoBehaviour:
       sttHipId: 33449
       endHipId: 30060
   - SignKey: Lyr
+    EngName: Lyra
+    JapName: "\u3053\u3068"
     SignId: 52
     _lines:
     - signKey: Lyr
@@ -1377,12 +1482,16 @@ MonoBehaviour:
       sttHipId: 92791
       endHipId: 91971
   - SignKey: Men
+    EngName: Mensa
+    JapName: "\u30C6\u30FC\u30D6\u30EB\u3055\u3093"
     SignId: 53
     _lines:
     - signKey: Men
       sttHipId: 25918
       endHipId: 21949
   - SignKey: Mic
+    EngName: Microscopium
+    JapName: "\u3051\u3093\u3073\u304D\u3087\u3046"
     SignId: 54
     _lines:
     - signKey: Mic
@@ -1392,6 +1501,8 @@ MonoBehaviour:
       sttHipId: 103738
       endHipId: 102831
   - SignKey: Mon
+    EngName: Monoceros
+    JapName: "\u3044\u3063\u304B\u304F\u3058\u3085\u3046"
     SignId: 55
     _lines:
     - signKey: Mon
@@ -1413,6 +1524,8 @@ MonoBehaviour:
       sttHipId: 39863
       endHipId: 37447
   - SignKey: Mus
+    EngName: Musca
+    JapName: "\u306F\u3048"
     SignId: 56
     _lines:
     - signKey: Mus
@@ -1428,6 +1541,8 @@ MonoBehaviour:
       sttHipId: 61585
       endHipId: 62322
   - SignKey: Nor
+    EngName: Norma
+    JapName: "\u3058\u3087\u3046\u304E"
     SignId: 57
     _lines:
     - signKey: Nor
@@ -1446,6 +1561,8 @@ MonoBehaviour:
       sttHipId: 78639
       endHipId: 79509
   - SignKey: Oct
+    EngName: Octans
+    JapName: "\u306F\u3061\u3076\u3093\u304E"
     SignId: 58
     _lines:
     - signKey: Oct
@@ -1458,6 +1575,8 @@ MonoBehaviour:
       sttHipId: 70638
       endHipId: 107089
   - SignKey: Oph
+    EngName: Ophiuchus
+    JapName: "\u3078\u3073\u3064\u304B\u3044"
     SignId: 59
     _lines:
     - signKey: Oph
@@ -1482,6 +1601,8 @@ MonoBehaviour:
       sttHipId: 84012
       endHipId: 85755
   - SignKey: Ori
+    EngName: Orion
+    JapName: "\u30AA\u30EA\u30AA\u30F3"
     SignId: 60
     _lines:
     - signKey: Ori
@@ -1548,6 +1669,8 @@ MonoBehaviour:
       sttHipId: 29038
       endHipId: 28614
   - SignKey: Pav
+    EngName: Pavo
+    JapName: "\u304F\u3058\u3083\u304F"
     SignId: 61
     _lines:
     - signKey: Pav
@@ -1590,6 +1713,8 @@ MonoBehaviour:
       sttHipId: 88866
       endHipId: 86929
   - SignKey: Peg
+    EngName: Pegasus
+    JapName: "\u30DA\u30AC\u30B9\u30B9"
     SignId: 62
     _lines:
     - signKey: Peg
@@ -1635,6 +1760,8 @@ MonoBehaviour:
       sttHipId: 113881
       endHipId: 113963
   - SignKey: Per
+    EngName: Perseus
+    JapName: "\u30DA\u30EB\u30BB\u30A6\u30B9"
     SignId: 63
     _lines:
     - signKey: Per
@@ -1668,6 +1795,8 @@ MonoBehaviour:
       sttHipId: 14354
       endHipId: 13254
   - SignKey: Phe
+    EngName: Phoenix
+    JapName: "\u307B\u3046\u304A\u3046"
     SignId: 64
     _lines:
     - signKey: Phe
@@ -1704,6 +1833,8 @@ MonoBehaviour:
       sttHipId: 765
       endHipId: 2072
   - SignKey: Pic
+    EngName: Pictor
+    JapName: "\u304C\u304B"
     SignId: 65
     _lines:
     - signKey: Pic
@@ -1713,6 +1844,8 @@ MonoBehaviour:
       sttHipId: 27530
       endHipId: 27321
   - SignKey: PsA
+    EngName: Piscis Austrinus
+    JapName: "\u307F\u306A\u307F\u306E\u3046\u304A"
     SignId: 66
     _lines:
     - signKey: PsA
@@ -1734,6 +1867,8 @@ MonoBehaviour:
       sttHipId: 111188
       endHipId: 113246
   - SignKey: Psc
+    EngName: Pisces
+    JapName: "\u3046\u304A"
     SignId: 67
     _lines:
     - signKey: Psc
@@ -1794,6 +1929,8 @@ MonoBehaviour:
       sttHipId: 115830
       endHipId: 116771
   - SignKey: Pup
+    EngName: Puppis
+    JapName: "\u3068\u3082"
     SignId: 68
     _lines:
     - signKey: Pup
@@ -1818,6 +1955,8 @@ MonoBehaviour:
       sttHipId: 39429
       endHipId: 39757
   - SignKey: Pyx
+    EngName: Pyxis
+    JapName: "\u3089\u3057\u3093\u3070\u3093"
     SignId: 69
     _lines:
     - signKey: Pyx
@@ -1827,6 +1966,8 @@ MonoBehaviour:
       sttHipId: 42828
       endHipId: 43409
   - SignKey: Ret
+    EngName: Reticulum
+    JapName: "\u30EC\u30C1\u30AF\u30EB"
     SignId: 70
     _lines:
     - signKey: Ret
@@ -1842,6 +1983,8 @@ MonoBehaviour:
       sttHipId: 17440
       endHipId: 19780
   - SignKey: Scl
+    EngName: Sculptor
+    JapName: "\u3061\u3087\u3046\u3053\u304F\u3057\u3064"
     SignId: 71
     _lines:
     - signKey: Scl
@@ -1854,6 +1997,8 @@ MonoBehaviour:
       sttHipId: 115102
       endHipId: 116231
   - SignKey: Sco
+    EngName: Scorpius
+    JapName: "\u3055\u305D\u308A"
     SignId: 72
     _lines:
     - signKey: Sco
@@ -1893,6 +2038,8 @@ MonoBehaviour:
       sttHipId: 80763
       endHipId: 78820
   - SignKey: Sct
+    EngName: Scutum
+    JapName: "\u305F\u3066"
     SignId: 73
     _lines:
     - signKey: Sct
@@ -1911,6 +2058,8 @@ MonoBehaviour:
       sttHipId: 91117
       endHipId: 92175
   - SignKey: Ser
+    EngName: Serpens(Cauda)
+    JapName: "\u3078\u3073(\u5C3E)"
     SignId: 74
     _lines:
     - signKey: Ser
@@ -1947,12 +2096,16 @@ MonoBehaviour:
       sttHipId: 86263
       endHipId: 84880
   - SignKey: Sex
+    EngName: Sextans
+    JapName: "\u308D\u304F\u3076\u3093\u304E"
     SignId: 75
     _lines:
     - signKey: Sex
       sttHipId: 51437
       endHipId: 49641
   - SignKey: Sge
+    EngName: Sagitta
+    JapName: "\u3084"
     SignId: 76
     _lines:
     - signKey: Sge
@@ -1968,6 +2121,8 @@ MonoBehaviour:
       sttHipId: 98337
       endHipId: 98920
   - SignKey: Sgr
+    EngName: Sagittarius
+    JapName: "\u3044\u3066"
     SignId: 77
     _lines:
     - signKey: Sgr
@@ -2043,6 +2198,8 @@ MonoBehaviour:
       sttHipId: 98032
       endHipId: 95294
   - SignKey: Tau
+    EngName: Taurus
+    JapName: "\u304A\u3046\u3057"
     SignId: 78
     _lines:
     - signKey: Tau
@@ -2082,12 +2239,16 @@ MonoBehaviour:
       sttHipId: 20455
       endHipId: 17847
   - SignKey: Tel
+    EngName: Telescopium
+    JapName: "\u307C\u3046\u3048\u3093\u304D\u3087\u3046"
     SignId: 79
     _lines:
     - signKey: Tel
       sttHipId: 90568
       endHipId: 90422
   - SignKey: TrA
+    EngName: Triangulum Australe
+    JapName: "\u307F\u306A\u307F\u306E\u3055\u3093\u304B\u304F"
     SignId: 80
     _lines:
     - signKey: TrA
@@ -2100,6 +2261,8 @@ MonoBehaviour:
       sttHipId: 77952
       endHipId: 82273
   - SignKey: Tri
+    EngName: Triangulum
+    JapName: "\u3055\u3093\u304B\u304F"
     SignId: 81
     _lines:
     - signKey: Tri
@@ -2112,6 +2275,8 @@ MonoBehaviour:
       sttHipId: 8796
       endHipId: 10559
   - SignKey: Tuc
+    EngName: Tucana
+    JapName: "\u304D\u3087\u3057\u3061\u3087\u3046"
     SignId: 82
     _lines:
     - signKey: Tuc
@@ -2124,6 +2289,8 @@ MonoBehaviour:
       sttHipId: 114996
       endHipId: 2484
   - SignKey: UMa
+    EngName: Ursa Major
+    JapName: "\u304A\u304A\u3050\u307E"
     SignId: 83
     _lines:
     - signKey: UMa
@@ -2184,6 +2351,8 @@ MonoBehaviour:
       sttHipId: 46733
       endHipId: 54061
   - SignKey: UMi
+    EngName: Ursa Minor
+    JapName: "\u3053\u3050\u307E"
     SignId: 84
     _lines:
     - signKey: UMi
@@ -2208,6 +2377,8 @@ MonoBehaviour:
       sttHipId: 72607
       endHipId: 77055
   - SignKey: Vel
+    EngName: Vela
+    JapName: "\u307B"
     SignId: 85
     _lines:
     - signKey: Vel
@@ -2241,6 +2412,8 @@ MonoBehaviour:
       sttHipId: 44816
       endHipId: 39953
   - SignKey: Vir
+    EngName: Virgo
+    JapName: "\u304A\u3068\u3081"
     SignId: 86
     _lines:
     - signKey: Vir
@@ -2280,6 +2453,8 @@ MonoBehaviour:
       sttHipId: 63090
       endHipId: 61941
   - SignKey: Vol
+    EngName: Volans
+    JapName: "\u3068\u3073\u3046\u304A"
     SignId: 87
     _lines:
     - signKey: Vol
@@ -2304,6 +2479,8 @@ MonoBehaviour:
       sttHipId: 44382
       endHipId: 39794
   - SignKey: Vul
+    EngName: Vulpecula
+    JapName: "\u3053\u304E\u3064\u306D"
     SignId: 88
     _lines:
     - signKey: Vul

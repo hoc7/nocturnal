@@ -19316,100 +19316,100 @@ MonoBehaviour:
     Magnitude: 4.49
   - StarName: 
     HitId: 16228
-    _position: {x: 0.43741927, y: -0.8331256, z: 0.3384761}
+    _position: {x: 0.3961498, y: -0.86550426, z: 0.30654162}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
-    Magnitude: 0.76
+    Magnitude: 4.21
   - StarName: 
     HitId: 17797
-    _position: {x: 0.6690695, y: -0.60473156, z: 0.43202513}
+    _position: {x: 0.66541153, y: 0.6104237, z: 0.42966318}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
-    Magnitude: 20.23
+    Magnitude: 4.3
   - StarName: 
     HitId: 18505
-    _position: {x: 0.857888, y: -0.0756118, z: 0.5082432}
+    _position: {x: 0.3896241, y: -0.89157826, z: 0.23082718}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
-    Magnitude: 9.65
+    Magnitude: 4.95
   - StarName: 
     HitId: 25110
-    _position: {x: 0.9580158, y: -0.23932004, z: 0.1578983}
+    _position: {x: 0.18436679, y: -0.9823877, z: 0.030386984}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
-    Magnitude: 47.66
+    Magnitude: 5.08
   - StarName: 
     HitId: 27890
-    _position: {x: 0.99512786, y: -0.09520221, z: 0.025631102}
+    _position: {x: 0.45242426, y: 0.8917266, z: 0.0116529465}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
-    Magnitude: 36.67
+    Magnitude: 4.65
   - StarName: 
     HitId: 29151
-    _position: {x: 0.8654944, y: -0.499772, z: -0.03387305}
+    _position: {x: 0.99828416, y: -0.043614544, z: -0.039070137}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 5.7
+  - StarName: 
+    HitId: 33165
+    _position: {x: 0.888595, y: 0.4055941, z: -0.21422495}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 6.65
+  - StarName: 
+    HitId: 38146
+    _position: {x: 0.8062463, y: 0.42122978, z: -0.41537035}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 5.32
+  - StarName: 
+    HitId: 44248
+    _position: {x: 0.52577925, y: -0.6663171, z: -0.52875113}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 3.96
+  - StarName: 
+    HitId: 44700
+    _position: {x: 0.5377542, y: -0.6218622, z: -0.56930476}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 4.56
+  - StarName: 
+    HitId: 78970
+    _position: {x: -0.7062117, y: 0.5984019, z: -0.37839153}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 5.72
+  - StarName: 
+    HitId: 90887
+    _position: {x: -0.7617016, y: 0.6388205, z: 0.1082547}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 5.16
+  - StarName: 
+    HitId: 92202
+    _position: {x: -0.9737667, y: 0.09940803, z: 0.20468599}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 5.38
+  - StarName: 
+    HitId: 92814
+    _position: {x: -0.9358268, y: 0.26897073, z: 0.22777824}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1000
+    Magnitude: 5.08
+  - StarName: 
+    HitId: 92953
+    _position: {x: -0.7127426, y: 0.67829573, z: 0.17864159}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
     Magnitude: 5.35
   - StarName: 
-    HitId: 33165
-    _position: {x: 0.5477814, y: -0.826133, z: -0.13206069}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 1.74
-  - StarName: 
-    HitId: 38146
-    _position: {x: 0.51323056, y: -0.8165054, z: -0.26441145}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 10.16
-  - StarName: 
-    HitId: 44248
-    _position: {x: 0.48081475, y: -0.73144615, z: -0.4835325}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 60.86
-  - StarName: 
-    HitId: 44700
-    _position: {x: 0.61108947, y: -0.45610833, z: -0.6469427}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 4.81
-  - StarName: 
-    HitId: 78970
-    _position: {x: -0.6196412, y: -0.71120757, z: -0.33200654}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 19.22
-  - StarName: 
-    HitId: 90887
-    _position: {x: -0.73301136, y: -0.6721915, z: 0.10417728}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 14.83
-  - StarName: 
-    HitId: 92202
-    _position: {x: -0.7237387, y: -0.6730963, z: 0.15213001}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 2.32
-  - StarName: 
-    HitId: 92814
-    _position: {x: -0.7842387, y: -0.5903673, z: 0.19088212}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 1.96
-  - StarName: 
-    HitId: 92953
-    _position: {x: -0.7135741, y: -0.6773661, z: 0.1788499}
-    color: {r: 1, g: 1, b: 1, a: 1}
-    scale: 1000
-    Magnitude: 10.52
-  - StarName: 
     HitId: 92989
-    _position: {x: -0.90762454, y: -0.3517298, z: 0.22913703}
+    _position: {x: -0.77083135, y: 0.6065878, z: 0.19460252}
     color: {r: 1, g: 1, b: 1, a: 1}
     scale: 1000
-    Magnitude: 7.67
+    Magnitude: 5.36
   HipData:
   - {fileID: 4900000, guid: fc6871b0df92ad7489cfacafc6aac0dd, type: 3}
   - {fileID: 4900000, guid: 4c2c3374fe77e7341b410270768c1ad6, type: 3}

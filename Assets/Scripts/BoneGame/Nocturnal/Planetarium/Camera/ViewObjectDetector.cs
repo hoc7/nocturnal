@@ -48,7 +48,7 @@ namespace BoneGame.Nocturnal.Planetarium
 
             foreach (SignData sign in signs)
             {
-                Debug.Log(sign.SignKey);
+                Debug.Log(sign.JapName);
             }
         }
     }

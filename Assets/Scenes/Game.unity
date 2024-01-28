@@ -549,6 +549,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 277819c89b1e40c4b0b93a9fdd84baa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DebugDaa:
+    Latitude: 35
+    Month: 0
   _gameMaster: {fileID: 11400000, guid: be8f78c985a50924d9693477aa8a1d4f, type: 2}
   _celestial: {fileID: 141329038}
 --- !u!114 &254133472
@@ -941,7 +944,8 @@ MonoBehaviour:
   _plane: {fileID: 70879173}
   ZoomSlider: {fileID: 744002353}
   Camera: {fileID: 961739752}
-  LatitudeAdjust: 35.7
+  SliderValue: {x: 30, y: 60}
+  LatitudeAdjust: 35
   rotationSpeed: 5
 --- !u!4 &523282763
 Transform:
@@ -1296,7 +1300,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1535880801}
   m_Direction: 2
   m_MinValue: 0
-  m_MaxValue: 0.5
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:

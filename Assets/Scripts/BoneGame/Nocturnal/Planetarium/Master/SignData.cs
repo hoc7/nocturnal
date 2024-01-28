@@ -8,6 +8,8 @@ namespace BoneGame.Nocturnal.Planetarium
     public class SignData
     {
         public string SignKey;
+        public string EngName;
+        public string JapName;
         public int SignId;
         public List<HipLine> _lines = new List<HipLine>();
 

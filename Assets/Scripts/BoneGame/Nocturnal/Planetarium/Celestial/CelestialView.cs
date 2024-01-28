@@ -24,6 +24,11 @@ namespace BoneGame.Data.Celestial
             //CelestialTransform.rotation = Quaternion.Euler(axis);
         }
 
+        public void InitRotate(float startAngle)
+        {
+            CelestialTransform.eulerAngles = new Vector3(0, startAngle, 0);
+        }
+
         private void DrawAxis()
         {
             Vector3 northPole = new Vector3(0, 2000, 0);

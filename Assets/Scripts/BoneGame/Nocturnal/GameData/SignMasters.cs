@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using BoneGame.Nocturnal.Planetarium;
 using NPOI.SS.Formula.Functions;
 using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 
 namespace BoneGame.Nocturnal.Data
@@ -14,6 +16,7 @@ namespace BoneGame.Nocturnal.Data
     [CreateAssetMenu(fileName = "SignMaster", menuName = "SignMaster作成", order = 100)]
     public class SignMasters : MasterDataScriptableObject
     {
+        [SerializeField] private TextAsset NameCsv;
         [SerializeField] private List<TextAsset> HipData;
         [SerializeField] private List<SignData> Signs = new List<SignData>();
 
@@ -39,6 +42,40 @@ namespace BoneGame.Nocturnal.Data
         
 #if UNITY_EDITOR
 
+        [Button("名前データの作成・マスターへの入力")]
+        public void CreateNames()
+        {
+            StringReader sr = new StringReader(NameCsv.text);
+            while (true)
+            {
+                string line = sr.ReadLine();
+                if (line == null)
+                {
+                    break;
+                }
+                else
+                {
+                    string[] dataArr = line.Split(',');
+                    try
+                    {
+                        string key = dataArr[1];
+                        string engName = dataArr[2];
+                        string japName = dataArr[3];
+
+                        var sign = Signs.FirstOrDefault(_ => _.SignKey == key);
+                        sign.EngName = engName;
+                        sign.JapName = japName;
+                    }
+                    catch
+                    {
+                        
+                    }
+                }
+            }
+        }
+        
+        
+        
         [Button("星座線データの生成")]
         public void CreateMaster()
         {

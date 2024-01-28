@@ -10,6 +10,7 @@ namespace BoneGame.Nocturnal.Planetarium
         [SerializeField] private GameObject _plane;// 地平
         [SerializeField] private Slider ZoomSlider;
         [SerializeField] UnityEngine.Camera Camera;
+        [SerializeField] private Vector2 SliderValue;
 
         // 観測者座標の設定
         public float LatitudeAdjust;
@@ -21,7 +22,8 @@ namespace BoneGame.Nocturnal.Planetarium
         {
             ZoomSlider.OnValueChangedAsObservable().Subscribe(_ =>
             {
-                Camera.fieldOfView = 35 - (_ * 40);
+                float a = SliderValue.y - SliderValue.x;
+                Camera.fieldOfView = SliderValue.y + -1 * (_ * a);
 
             }).AddTo(this);
             

@@ -15,7 +15,10 @@ namespace BoneGame.Data.Celestial
         /// </summary>
         public const float DegreesPerSecond = 0.5f;
 
-        public float _startDegrees;
+        /// <summary>
+        /// 開始時の回転
+        /// </summary>
+        private float _startDegrees;
 
         /// <summary>
         /// 星の情報
@@ -56,9 +59,14 @@ namespace BoneGame.Data.Celestial
         /// </summary>
         /// <param name="time"></param>
         /// <returns></returns>
-        public float GetAngle(float time)
+        public float GetAngle()
         {
             return DegreesPerSecond / 100f;
+        }
+
+        public float GetStartDegrees()
+        {
+            return _startDegrees;
         }
     }
 }

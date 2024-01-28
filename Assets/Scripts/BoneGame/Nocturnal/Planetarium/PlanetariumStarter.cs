@@ -16,6 +16,7 @@ namespace BoneGame.Nocturnal.Planetarium
     /// </summary>
     public class PlanetariumStarter : MonoBehaviour
     {
+        [SerializeField] private ObserverData DebugDaa;
         [SerializeField] private GameMaster _gameMaster;
         [SerializeField] private CelestialPresenter _celestial;
         private GameTime _time;
@@ -32,7 +33,7 @@ namespace BoneGame.Nocturnal.Planetarium
             GameTime time = new GameTime();
 
             // いったん日本の9月で決め打ち
-            _celestial.Initialization(135,270,time);
+            _celestial.Initialization(DebugDaa.Latitude,270,time);
             
             time.StartTimer();
 
