@@ -37,8 +37,7 @@ namespace BoneGame.Data.Celestial
         public void Initialization(float latitude,float startDegrees,GameTime gameTime)
         {
             _celestialModel = new CelestialModel(latitude,startDegrees,MasterDataHolder.Instance.GetAllStar());
-            _view.InitAxis();
-            _view.InitRotate(_celestialModel.GetStartDegrees());
+
             gameTime.TimeElapsed.Subscribe(_ =>
             {
                 _view.SetAngle(_celestialModel.GetAngle());
@@ -52,6 +51,9 @@ namespace BoneGame.Data.Celestial
             
             _view.CreateStars(_celestialModel.GetDisplayStarData());
             _signLineView.DrawAllSignLine(MasterDataHolder.Instance.GetAllSign());
+            
+            _view.InitAxis();
+            _view.InitRotate(_celestialModel.GetStartDegrees());
         }
 
         /// <summary>

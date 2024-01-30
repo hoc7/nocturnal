@@ -21,6 +21,8 @@ namespace BoneGame.Event
         [SerializeField]
         public List<StarData> StarDataList = new List<StarData>();
 
+        public float Scale;
+        
         /// <summary>
         /// 星情報の取得
         /// </summary>

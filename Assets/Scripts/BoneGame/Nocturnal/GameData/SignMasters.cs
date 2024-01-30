@@ -19,7 +19,6 @@ namespace BoneGame.Nocturnal.Data
         [SerializeField] private TextAsset NameCsv;
         [SerializeField] private List<TextAsset> HipData;
         [SerializeField] private List<SignData> Signs = new List<SignData>();
-
         public SignData GetSignData(int signId)
         {
             return Signs.FirstOrDefault(_ => _.SignId == signId);

@@ -13,18 +13,15 @@ namespace BoneGame.Nocturnal.Planetarium
     {
         public string StarName;
         public int HitId;
-        [SerializeField]
-        private Vector3 _position;
+        [SerializeField] private Vector3 _position;
 
-        public Vector3 GetPosition
+        public Vector3 GetPosition(float scale)
         {
-            get
-            {
-                return new Vector3(_position.x * scale, _position.y * scale, _position.z * scale);
-            }
+            return new Vector3(_position.x * scale, _position.y * scale, _position.z * scale);
         }
+
         public Color color;
-        public int scale = 1000;
+
 
         /// <summary>
         /// 等級
@@ -41,7 +38,6 @@ namespace BoneGame.Nocturnal.Planetarium
 
         public StarData()
         {
-            
         }
     }
 }

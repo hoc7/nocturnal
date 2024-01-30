@@ -45,8 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e110a196f88a489c851ed86f5fc80e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartStarId: 0
+  EndStarId: 0
   _lineRenderer: {fileID: 2950338310982159734}
-  DefaultLineWidth: 1
+  DefaultLineWidth: 10
 --- !u!120 &2950338310982159734
 LineRenderer:
   serializedVersion: 2

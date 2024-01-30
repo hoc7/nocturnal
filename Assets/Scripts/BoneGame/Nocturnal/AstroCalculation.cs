@@ -32,7 +32,7 @@ namespace BoneGame.Data
         public static Quaternion GetDecToCelestialQuaternion(int decH, int decM, float decS, int sign)
         {
             float dec = (decH + decM / 60f + decS / 3600f) * (sign == 0 ? -1f : 1f);
-            Quaternion rotDec = Quaternion.AngleAxis(dec, Vector3.right);
+            Quaternion rotDec = Quaternion.AngleAxis(dec, Vector3.left);
             return rotDec;
         }
 
@@ -46,7 +46,7 @@ namespace BoneGame.Data
         public static Quaternion GetRaToCelestialQuaternion(int raH, int raM, float raS)
         {
             float ra = (360f / 24f) * (raH + raM / 60f + raS / 3600f);
-            return Quaternion.AngleAxis(ra, Vector3.up);
+            return Quaternion.AngleAxis(ra, Vector3.down);
         }
 
         /// <summary>

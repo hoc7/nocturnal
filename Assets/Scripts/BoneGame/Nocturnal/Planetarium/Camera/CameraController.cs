@@ -13,10 +13,10 @@ namespace BoneGame.Nocturnal.Planetarium
         [SerializeField] private Vector2 SliderValue;
 
         // 観測者座標の設定
-        public float LatitudeAdjust;
         public float rotationSpeed = 5.0f;
         private float pitch = -15.0f; // X軸回転（上下の向き）
         private float yaw = 0.0f;   // Y軸回転（左右の向き）
+        private float LatitudeAdjust;
 
         private void Start()
         {
@@ -26,7 +26,11 @@ namespace BoneGame.Nocturnal.Planetarium
                 Camera.fieldOfView = SliderValue.y + -1 * (_ * a);
 
             }).AddTo(this);
-            
+        }
+
+        public void Initialization(float latitude)
+        {
+            LatitudeAdjust = latitude;
             Vector3 rotationVector = new Vector3(LatitudeAdjust, 0, 0);
             Vector3 startRotationVector = new Vector3(LatitudeAdjust + pitch, 0, 0);
             Quaternion rotation = Quaternion.Euler(rotationVector);

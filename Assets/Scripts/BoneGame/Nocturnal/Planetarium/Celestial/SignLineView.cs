@@ -40,7 +40,8 @@ namespace BoneGame.Nocturnal.Planetarium.Celestial
             StarData endStar = MasterDataHolder.Instance.GetStar(hipLine.endHipId);
             
             drawer.DebugSetId(startStar.HitId,endStar.HitId);
-            drawer.DrawLine(startStar.GetPosition,endStar.GetPosition);
+            float scale = MasterDataHolder.Instance.GetStarScale();
+            drawer.DrawLine(startStar.GetPosition(scale),endStar.GetPosition(scale));
         }
     }
 }
