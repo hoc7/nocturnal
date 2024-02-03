@@ -13,7 +13,7 @@ namespace BoneGame.Data.Celestial
         /// <summary>
         /// 1秒間に回転する角度
         /// </summary>
-        public const float DegreesPerSecond = 0.5f;
+        public const float DegreesPerSecond = 0.666f;
 
         /// <summary>
         /// 開始時の回転

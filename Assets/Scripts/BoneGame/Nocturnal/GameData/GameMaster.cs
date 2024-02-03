@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using BoneGame.Nocturnal.GameData;
 using UnityEngine;
 
 namespace BoneGame.Event
@@ -11,13 +13,21 @@ namespace BoneGame.Event
         public AudioClip GetAudioClip => AudioClip;
         public float Time;
         /// <summary>
-        /// ゲームで探す星のId
+        /// ゲームで探す星のMaster
         /// </summary>
-        public List<int> SearchStarId;
+        public List<PurposeStarMaster> SearchStarId;
         
         /// <summary>
-        /// ゲームで探す星座のId
+        /// ゲームで探す星座のMaster
         /// </summary>
-        public List<int> SearchSignId;
+        public List<PurposeSignMaster> SearchSignId;
+
+        public List<PurposeMasterBase> GetPurpose()
+        {
+            List<PurposeMasterBase> masterBases = new List<PurposeMasterBase>();
+            masterBases.AddRange(SearchSignId);
+            masterBases.AddRange(SearchStarId);
+            return masterBases;
+        }
     }
 }

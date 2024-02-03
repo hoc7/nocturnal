@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using BoneGame.Data;
+using BoneGame.Message;
 using BoneGame.Nocturnal.Data;
 using Cysharp.Threading.Tasks;
 using UniRx;
@@ -45,11 +47,13 @@ namespace BoneGame.Nocturnal.Planetarium
 
             List<SignData> signs  = MasterDataHolder.Instance.GetContainSigns(hitStars);
 
-
             foreach (SignData sign in signs)
             {
                 Debug.Log(sign.JapName);
             }
+
+            PurposeCheckMessage message = new PurposeCheckMessage(signs.Select(_ => _.SignId).ToList(), hitStars);
+            Messenger.Publish(message);
         }
     }
 }

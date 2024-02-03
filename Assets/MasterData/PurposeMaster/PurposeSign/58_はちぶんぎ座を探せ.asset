@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21bf8928d0dc41539821a2eefe615362, type: 3}
-  m_Name: GameMaster
+  m_Script: {fileID: 11500000, guid: 834bba0e88c341faa37cb4be994c28f9, type: 3}
+  m_Name: "58_\u306F\u3061\u3076\u3093\u304E\u5EA7\u3092\u63A2\u305B"
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,9 +21,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  Id: 1
-  Name: "1\u9762"
-  AudioClip: {fileID: 8300000, guid: d43deb2c0e0e3cc4e8848bbdf25265b1, type: 3}
-  Time: 10
-  SearchStarId: 010000000200000003000000
-  SearchSignId: 01000000
+  Id: 58
+  Name: "\u306F\u3061\u3076\u3093\u304E"
+  SignId: 58
+  Masters: {fileID: 0}
