@@ -26,15 +26,14 @@ MonoBehaviour:
   AudioClip: {fileID: 8300000, guid: d43deb2c0e0e3cc4e8848bbdf25265b1, type: 3}
   Time: 10
   SearchStarId:
-  - {fileID: 11400000, guid: 2b432828b6b157f489491428b170020b, type: 2}
-  - {fileID: 11400000, guid: 30e2aed7bfa4cc84a9a542494dc709e7, type: 2}
-  - {fileID: 11400000, guid: b97ccdd6cd0bb2f4a9088a32c4f82a71, type: 2}
-  - {fileID: 11400000, guid: fae10a995b884454d9e86c838d5d31fd, type: 2}
+  - {fileID: 11400000, guid: 1690fc3aa828baa47a0883425fd18896, type: 2}
+  - {fileID: 11400000, guid: 9cffee4ea695f02439993ddfe4abe5fa, type: 2}
+  - {fileID: 11400000, guid: 9dcf7c770bea96047a84a631271eec67, type: 2}
   - {fileID: 11400000, guid: c32db49734875034d9e3d10fb80f36b1, type: 2}
+  - {fileID: 11400000, guid: 117cba525a2ceef4d947fdd8ce27c2e5, type: 2}
   SearchSignId:
   - {fileID: 11400000, guid: bdb205e2f2b701a45a9096be42cb79a3, type: 2}
-  - {fileID: 11400000, guid: e6994f6adfb78224297ecc067454ff4a, type: 2}
-  - {fileID: 11400000, guid: ab90ad685beff2e4092fc0134fafe46f, type: 2}
-  - {fileID: 11400000, guid: 4c0503d3eef172145aa1062c5937cdf5, type: 2}
+  - {fileID: 11400000, guid: 6267d97c264e2de4db3bf1c753a2c2f3, type: 2}
   - {fileID: 11400000, guid: bf7791ac33001184fa1a0ffea91e8dca, type: 2}
   - {fileID: 11400000, guid: 843b3811e3fa42d4eb0c46d718a13687, type: 2}
+  - {fileID: 11400000, guid: bd36022b2e3d504469821a8214083d5e, type: 2}

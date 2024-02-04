@@ -12,7 +12,7 @@ using UnityEditor;
 
 namespace BoneGame.Event
 {
-    [CreateAssetMenu(fileName = "StarMaster", menuName = "StarMaster作成", order = 100)]
+
     public class StarMasters : MasterDataScriptableObject
     {
         /// <summary>

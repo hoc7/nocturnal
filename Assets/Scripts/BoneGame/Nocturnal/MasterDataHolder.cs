@@ -7,6 +7,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using BoneGame.Event;
 using BoneGame.Nocturnal.Data;
+using BoneGame.Nocturnal.GameData;
 using BoneGame.Nocturnal.Planetarium;
 using UnityEngine.Serialization;
 #if UNITY_EDITOR
@@ -25,6 +26,7 @@ namespace BoneGame.Data
 
         [SerializeField] private List<GameMaster> GameMasters;
         [SerializeField] private List<EventMaster> EventMasters;
+        [SerializeField] private List<BookMaster> BookMasters;
         [SerializeField] private StarMasters starMasters;
         [SerializeField] private SignMasters signMasters;
 
@@ -48,6 +50,11 @@ namespace BoneGame.Data
         {
             var getEvent = GameMasters.FirstOrDefault(_ => _.Id == id);
             return getEvent;
+        }
+
+        public List<BookMaster> GetAllBook()
+        {
+            return BookMasters;
         }
         
         /// <summary>
@@ -102,6 +109,7 @@ namespace BoneGame.Data
             EventMasters = FindMaster<EventMaster>();
             starMasters = FindMaster<StarMasters>().FirstOrDefault();
             signMasters = FindMaster<SignMasters>().FirstOrDefault();
+            BookMasters = FindMaster<BookMaster>();
         }
 
         /// <summary>

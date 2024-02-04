@@ -13,7 +13,7 @@ namespace BoneGame.Nocturnal.Data
     /// <summary>
     /// 星座マスター
     /// </summary>
-    [CreateAssetMenu(fileName = "SignMaster", menuName = "SignMaster作成", order = 100)]
+  
     public class SignMasters : MasterDataScriptableObject
     {
         [SerializeField] private TextAsset NameCsv;

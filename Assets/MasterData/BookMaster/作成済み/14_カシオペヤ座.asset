@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3936c0b1953942358ed6148488315c7a, type: 3}
+  m_Name: "14_\u30AB\u30B7\u30AA\u30DA\u30E4\u5EA7"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  Id: 14
+  Name: "\u30AB\u30B7\u30AA\u30DA\u30E4\u5EA7"
+  Image: {fileID: 21300000, guid: 58fc82ce28c15ca4e9325a11a6dbd139, type: 3}
+  Information: "\u30AE\u30EA\u30B7\u30E3\u795E\u8A71\u306B\u767B\u5834\u3059\u308B\n\u5973\u738B\u30AB\u30B7\u30AA\u30DA\u30A2\u3092\n\u8C61\u5FB4\u3059\u308B\u661F\u5EA7\u3067\u3059\u3002\n\n\u30AB\u30B7\u30AA\u30DA\u30A2\u5EA7\u306F\n\u5E74\u9593\u3092\u901A\u3058\u3066\n\u89B3\u5BDF\u53EF\u80FD\u306A\u661F\u5EA7\u3067\n\u300CW\u300D\u307E\u305F\u306F\u300CM\u300D\u306E\n\u5F62\u3092\u3057\u3066\u304A\u308A\u307E\u3059\u3002\n\n\u30AB\u30B7\u30AA\u30DA\u30A2\u5EA7\u3092\u898B\u3064\u3051\u308B\u306B\u306F\u3001\n\u307E\u305A\u306F\u5317\u306E\u591C\u7A7A\u3092\n\u63A2\u3057\u307E\u3057\u3087\u3046\u3002\n\n"
+  Masters: {fileID: 0}

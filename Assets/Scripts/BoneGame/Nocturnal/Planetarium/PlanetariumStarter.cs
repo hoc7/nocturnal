@@ -4,6 +4,8 @@ using System.Linq;
 using BoneGame.Data;
 using BoneGame.Data.Celestial;
 using BoneGame.Event;
+using BoneGame.Nocturnal.GameData;
+using BoneGame.Nocturnal.Planetarium.Book;
 using BoneGame.Nocturnal.Planetarium.Purpose;
 using BoneGame.System;
 using BoneGame.System.Sound;
@@ -24,8 +26,8 @@ namespace BoneGame.Nocturnal.Planetarium
         [SerializeField] private GameMaster _gameMaster;
         [SerializeField] private CelestialPresenter _celestial;
         [SerializeField] private PurposePresenter _purposePresenter;
+        [SerializeField] private BookPresenter _bookPresenter;
         private GameTime _time;
-
 
         private void Start()
         {
@@ -41,6 +43,7 @@ namespace BoneGame.Nocturnal.Planetarium
             _celestial.Initialization(90 - DebugDaa.Latitude, 15 + (DebugDaa.Month * 30), time);
             _cameraController.Initialization(90 - DebugDaa.Latitude);
             _purposePresenter.Initialization(master.GetPurpose());
+            _bookPresenter.Initialization(MasterDataHolder.Instance.GetAllBook());
             time.StartTimer();
 
             time.TimeElapsed.Subscribe(_ => { TimeDrawer.DrawTime(time._currentTime); }).AddTo(this);

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading;
 using UnityEngine;
@@ -127,8 +128,72 @@ namespace BoneGame.System
             int dice = Random.Range(0, 100);
             return dice < prob;
         }
+        
     }
 
+    public static class CharacterTurner
+    {
+        private static readonly List<string> Ordering =
+            new List<string> {
+                "あ", "い", "う", "え", "お",
+                "か", "き", "く", "け", "こ",
+                "さ", "し", "す", "せ", "そ",
+                "た", "ち", "つ", "て", "と",
+                "な", "に", "ぬ", "ね", "の",
+                "は", "ひ", "ふ", "へ", "ほ",
+                "ま", "み", "む", "め", "も",
+                "や",       "ゆ",       "よ",
+                "ら", "り", "る", "れ", "ろ",
+                "わ",                   "を",
+                "ん", 
+            };
+
+        public static int GetIndex(List<string> pages, string initial)
+        {
+            pages = pages.Select(_ => KatakanaToHiragana(_)).ToList();
+            var searchOrder = Ordering.SkipWhile(x => x != initial).ToList();
+            var result = pages
+                .FirstOrDefault(page => searchOrder.Any(page.StartsWith));
+            return pages.IndexOf(result);
+        }
+        
+        static string KatakanaToHiragana(string input)
+        {
+            char[] result = new char[input.Length];
+            for (int i = 0; i < input.Length; i++)
+            {
+                char originalChar = input[i];
+                // カタカナのUnicode範囲チェック
+                if (originalChar >= '\u30A0' && originalChar <= '\u30FF')
+                {
+                    // カタカナからひらがなに変換（差分は96）
+                    char convertedChar = (char)(originalChar - 96);
+                    result[i] = convertedChar;
+                }
+                else
+                {
+                    // カタカナ以外の文字はそのまま
+                    result[i] = originalChar;
+                }
+            }
+            return new string(result);
+        }
+    }
+    
+
+    
+    public class JapaneseStringComparer : IComparer<string>
+    {
+        private CompareInfo compareInfo = CultureInfo.GetCultureInfo("ja-JP").CompareInfo;
+
+        // 日本語のカルチャを使用してCompareInfoを取得
+
+        public int Compare(string x, string y)
+        {
+            // 日本語の五十音順に基づいて比較
+            return compareInfo.Compare(x, y, CompareOptions.StringSort);
+        }
+    }
 
     public class RemovalStack<T>
     {
