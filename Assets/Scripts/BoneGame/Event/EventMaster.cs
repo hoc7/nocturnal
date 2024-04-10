@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace BoneGame.Event
@@ -10,7 +11,7 @@ namespace BoneGame.Event
         /// <summary>
         /// 実行するイベント群
         /// </summary>
-        [SerializeField]
+        [SerializeField,InlineEditor]
         public List<EventActionBase> _actions { get; private set; } = new List<EventActionBase>();
 
         /// <summary>

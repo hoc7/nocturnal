@@ -27,13 +27,13 @@ MonoBehaviour:
         BoneEvent]], mscorlib
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 2
     - Name: 
       Entry: 7
       Data: 1|BoneGame.Event.AdvSceneEvent, BoneEvent
     - Name: Label
       Entry: 1
-      Data: Start
+      Data: 1_1
     - Name: 
       Entry: 8
       Data: 
@@ -43,15 +43,6 @@ MonoBehaviour:
     - Name: GameId
       Entry: 3
       Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 3|BoneGame.Event.AdvSceneEvent, BoneEvent
-    - Name: Label
-      Entry: 1
-      Data: Start
     - Name: 
       Entry: 8
       Data: 

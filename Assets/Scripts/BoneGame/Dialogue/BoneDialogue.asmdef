@@ -1,0 +1,21 @@
+{
+    "name": "BoneDialogue",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1a94a59e54159114698a4a7a84f90d7b",
+        "GUID:71b5f690d23cb464596025b761d6eb2f",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:eb39997690f8e1e4cb9e7dc641f55e04",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

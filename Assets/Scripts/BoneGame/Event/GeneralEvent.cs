@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using BoneGame.Event.Adv;
+using BoneGame.Message;
 using BoneGame.System;
 using Cysharp.Threading.Tasks;
 using UniRx;
@@ -41,6 +42,24 @@ namespace BoneGame.Event
             AdvStartModel model = new AdvStartModel();
          
             await model.StartAdv_scene(this.Label);
+            await CallNextAction(eventId, eventActionBases, source);
+        }
+    }
+
+    /// <summary>
+    /// 会話イベントの発生
+    /// </summary>
+    [Serializable]
+    public class DialogueStartEvent : EventActionBase
+    {
+        [SerializeField] private string DialogueAddress;
+        public override async UniTask StartAction(int eventId, Queue<EventActionBase> eventActionBases, CancellationTokenSource source)
+        {
+            GameObject dialogue =
+            await ResourceLoader.Load<GameObject>(DialogueAddress, false);
+            
+            var x = await Messenger.Receive<EventEndMessage>().Take(1).ToUniTask();
+            
             await CallNextAction(eventId, eventActionBases, source);
         }
     }
