@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using BoneGame.Nocturnal.Planetarium;
+using BoneGame.System;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Serialization;

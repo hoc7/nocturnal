@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using BoneGame.Nocturnal.GameData;
+using BoneGame.System;
 using UnityEngine;
 
 namespace BoneGame.Event

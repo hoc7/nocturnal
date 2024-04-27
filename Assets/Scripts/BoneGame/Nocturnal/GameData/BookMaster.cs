@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using BoneGame.Nocturnal.Data;
 using BoneGame.Nocturnal.Planetarium;
 using BoneGame.Nocturnal.Planetarium.Book;
+using BoneGame.System;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;

@@ -8,6 +8,7 @@ namespace BoneGame.Dialogue
     [CreateAssetMenu(fileName = "DialogueData", menuName = "DialogueData", order = 0)]
     public class DialogueData : ScriptableObject
     {
+        public string key;
         [SerializeReference,InlineEditor]
         public List<DialogueEntity> Dialogues = new List<DialogueEntity>();
     }

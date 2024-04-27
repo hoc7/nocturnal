@@ -18,7 +18,7 @@ namespace BoneGame.Dialogue
         {
             Messenger.Receive<DialogueTextMessage>().Subscribe(_ =>
             {
-                Name.text = _.Entity.Actor.Name;
+                //Name.text = _.Entity.Actor.Name;
                 Text.text = _.Entity.Text;
 
                 if (!NowOpen)
@@ -29,6 +29,8 @@ namespace BoneGame.Dialogue
 
             Messenger.Receive<EndDialogueMessage>().Subscribe(_ =>
             {
+                //Name.text = string.Empty;
+                Text.text = string.Empty;
                 TextBoxObject.SetActive(false);
                 NowOpen = false;
 

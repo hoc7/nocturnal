@@ -52,5 +52,37 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: Triggers
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[BoneGame.Event.Trigger.EventTriggerBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 4|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
+    - Name: Triggers
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
   Id: 1
   Name: "\u30D7\u30ED\u30ED\u30FC\u30B0\u30B7\u30CA\u30EA\u30AA\u958B\u59CB"

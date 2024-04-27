@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Text;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -6,7 +7,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor;
 #endif
-namespace System
+namespace BoneGame.System
 {
     public class MasterDataScriptableObject:SerializedScriptableObject
     {
@@ -27,6 +28,29 @@ namespace System
 
             AssetDatabase.RenameAsset(assetPath, newName);
             AssetDatabase.SaveAssets();
+        }
+        
+        /// <summary>
+        /// マスターの検索
+        /// </summary>
+        /// <returns></returns>
+        public static List<T> FindMaster<T>()
+        {
+            var typeName = typeof(T);
+            StringBuilder builder = new StringBuilder();
+            builder.Append("t:");
+            builder.Append(typeName);
+            var guids = UnityEditor.AssetDatabase.FindAssets(builder.ToString());
+
+            List<T> masters = new List<T>();
+            foreach (var guid in guids)
+            {
+                string path = AssetDatabase.GUIDToAssetPath(guid);
+                var objects = AssetDatabase.LoadAllAssetsAtPath(path).ToList();
+                masters.AddRange(objects.OfType<T>().ToList());
+            }
+
+            return masters;
         }
 
         protected static List<T> SearchExistMaster<T>() where T : MasterDataScriptableObject
