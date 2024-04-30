@@ -61,7 +61,7 @@ namespace BoneGame.System
         }
         
         [Button("新しいマスターの作成")]
-        protected static T CreateNewMasterAsset<T>() where T : MasterDataScriptableObject
+        public static T CreateNewMasterAsset<T>() where T : MasterDataScriptableObject
         {
             int maxId = SearchExistMaster<T>().Select(_ => _.Id).Max();
             

@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913018e0829a4f5280c3ddcb4a6052cf, type: 3}
+  m_Name: "3_\u30D7\u30ED\u30ED\u30FC\u30B0\u30B2\u30FC\u30E0\u7D42\u4E86"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 3c6b814abfe3452499481b0965201af2, type: 2}
+    - {fileID: 11400000, guid: 9ac816b51060cfd49b31bd87efd63df1, type: 2}
+    - {fileID: 11400000, guid: 38e0d932fbf739047a4935134075fe7d, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _actions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BoneGame.Event.EventActionBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|BoneGame.Dialogue.Event.DialogueStartEvent, BoneDialogue
+    - Name: Dialogue
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|BoneGame.Event.FlagEvent, BoneGame_Nocturnal
+    - Name: _eventFlag
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|BoneGame.Nocturnal.Event.AdvSceneEvent, BoneGame_Nocturnal
+    - Name: bgName
+      Entry: 1
+      Data: "\u5BB6"
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Triggers
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[BoneGame.Event.Trigger.EventTriggerBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
+    - Name: Triggers
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CannotExecTriggers
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[BoneGame.Event.Trigger.EventTriggerBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
+    - Name: Triggers
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Id: 3
+  Name: "\u30D7\u30ED\u30ED\u30FC\u30B0\u30B2\u30FC\u30E0\u7D42\u4E86"

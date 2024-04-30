@@ -15,7 +15,9 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 64a86b17dc3959b4ba8efc1bcddd1868, type: 2}
+    - {fileID: 11400000, guid: 38e0d932fbf739047a4935134075fe7d, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -30,18 +32,18 @@ MonoBehaviour:
       Data: 2
     - Name: 
       Entry: 7
-      Data: 1|BoneGame.Event.AdvSceneEvent, BoneEvent
-    - Name: Label
-      Entry: 1
-      Data: 1_1
+      Data: 1|BoneGame.Dialogue.Event.DialogueStartEvent, BoneDialogue
+    - Name: Dialogue
+      Entry: 10
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 2|BoneGame.Event.GameEvent, BoneGame_Nocturnal
-    - Name: GameId
-      Entry: 3
+      Data: 2|BoneGame.Event.FlagEvent, BoneGame_Nocturnal
+    - Name: _eventFlag
+      Entry: 10
       Data: 1
     - Name: 
       Entry: 8
@@ -58,17 +60,33 @@ MonoBehaviour:
         BoneEvent]], mscorlib
     - Name: 
       Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CannotExecTriggers
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[BoneGame.Event.Trigger.EventTriggerBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 4|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
+      Data: 5|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
     - Name: Triggers
       Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
+      Data: 6|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 0
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 13
       Data: 

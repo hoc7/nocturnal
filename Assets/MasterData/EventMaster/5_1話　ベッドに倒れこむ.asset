@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913018e0829a4f5280c3ddcb4a6052cf, type: 3}
+  m_Name: "5_1\u8A71\u3000\u30D9\u30C3\u30C9\u306B\u5012\u308C\u3053\u3080"
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: ddd3e5a36d74dc14db99233d3d6be2c1, type: 2}
+    - {fileID: 11400000, guid: 9a8a3e4478241cf4a878a83f45aae9fe, type: 2}
+    - {fileID: 11400000, guid: 9283a7f98b0384c4392edf16e09a319f, type: 2}
+    - {fileID: 11400000, guid: 5e6ede47fcec86d44b0fbdd6f24e6438, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _actions
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BoneGame.Event.EventActionBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 1|BoneGame.Event.TransformChangeEvent, BoneEvent
+    - Name: ObjectName
+      Entry: 1
+      Data: "\u30E8\u30A4\u30E4\u30DF"
+    - Name: Position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -2.6
+    - Name: 
+      Entry: 4
+      Data: -1.79
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Rotation
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 180
+    - Name: 
+      Entry: 4
+      Data: -80
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|BoneGame.Dialogue.Event.DialogueStartEvent, BoneDialogue
+    - Name: Dialogue
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|BoneGame.Event.ProCameraTargetTransformChange, BoneEvent
+    - Name: ObjectName
+      Entry: 1
+      Data: TV
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|BoneGame.Dialogue.Event.DialogueStartEvent, BoneDialogue
+    - Name: Dialogue
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|BoneGame.Event.FlagEvent, BoneGame_Nocturnal
+    - Name: _eventFlag
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Triggers
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[BoneGame.Event.Trigger.EventTriggerBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 7|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
+    - Name: Triggers
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CannotExecTriggers
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[BoneGame.Event.Trigger.EventTriggerBase,
+        BoneEvent]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 10|BoneGame.Event.Trigger.FlagTrigger, BoneGame_Nocturnal
+    - Name: Triggers
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[BoneGame.Event.EventFlag, BoneEvent]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Id: 5
+  Name: "1\u8A71\u3000\u30D9\u30C3\u30C9\u306B\u5012\u308C\u3053\u3080"

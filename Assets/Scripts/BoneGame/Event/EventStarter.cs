@@ -61,7 +61,7 @@ namespace BoneGame.Event
                 }
 
                 CancellationToken = new CancellationTokenSource();
-                await StartAreaEvent(CancellationToken);
+                await StartEvent(CancellationToken);
             }
             catch(Exception e)
             {
@@ -71,7 +71,7 @@ namespace BoneGame.Event
             }
         }
         
-        private async UniTask StartAreaEvent(CancellationTokenSource cancellationToken)
+        private async UniTask StartEvent(CancellationTokenSource cancellationToken)
         {
             if (NowData.ActionQueue.Count == 0) return;
             var action = NowData.ActionQueue.Dequeue();

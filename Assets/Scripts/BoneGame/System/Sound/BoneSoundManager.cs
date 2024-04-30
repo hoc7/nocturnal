@@ -12,7 +12,7 @@ namespace BoneGame.System.Sound
 
         protected override bool IsDontDestroyOnLoad()
         {
-            return true;
+            return false;
         }
 
         public void PlayBGM(AudioClip clip)

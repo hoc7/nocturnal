@@ -8,12 +8,13 @@ namespace BoneGame.Data.Celestial
     /// </summary>
     public class CelestialModel
     {
+        private float realDegreesPerSecond = 0.0083333333f;
 
 
         /// <summary>
         /// 1秒間に回転する角度
         /// </summary>
-        public const float DegreesPerSecond = 0.666f;
+        private float DegreesPerSecond = 0.666f;
 
         /// <summary>
         /// 開始時の回転
@@ -36,11 +37,12 @@ namespace BoneGame.Data.Celestial
         /// <param name="latitude"></param>
         /// <param name="startDegrees"></param>
         /// <param name="starDatas"></param>
-        public CelestialModel(float latitude,float startDegrees,List<StarData> starDatas)
+        public CelestialModel(float latitude,float startDegrees,List<StarData> starDatas,float mult)
         {
             _latitude = latitude;
             _startDegrees = startDegrees;
             _starDatas = starDatas;
+            DegreesPerSecond = realDegreesPerSecond * mult;
         }
 
         /// <summary>
@@ -61,7 +63,7 @@ namespace BoneGame.Data.Celestial
         /// <returns></returns>
         public float GetAngle()
         {
-            return DegreesPerSecond / 100f;
+            return DegreesPerSecond / 10f;
         }
 
         public float GetStartDegrees()

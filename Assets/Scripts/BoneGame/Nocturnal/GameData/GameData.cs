@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
 
 namespace BoneGame.Nocturnal.GameData
 {
@@ -12,14 +14,29 @@ namespace BoneGame.Nocturnal.GameData
         private GameData()
         {
         }
+        
+        [InitializeOnEnterPlayMode]
+        static void OnEnterPlaymodeInEditor(EnterPlayModeOptions options)
+        {
+            Debug.Log("Entering PlayMode");
+
+            if (options.HasFlag(EnterPlayModeOptions.DisableDomainReload))
+                _instance = new GameData();
+        }
 
         public static GameData Instance()
         {
             return _instance;
         }
 
-        public List<int> NowClearFlags { get; private set; } = new List<int>();
+        private List<int> NowClearFlags  = new List<int>();
 
+
+        public List<int> GetFrag()
+        {
+            return NowClearFlags;
+        }
+        
         /// <summary>
         /// フラグの設定
         /// </summary>

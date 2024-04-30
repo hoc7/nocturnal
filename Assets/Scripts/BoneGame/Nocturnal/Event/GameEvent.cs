@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Threading;
 using BoneGame.Adv;
 using BoneGame.Data;
+using BoneGame.Message;
+using BoneGame.Nocturnal.GameData;
 using BoneGame.Nocturnal.Planetarium;
 using BoneGame.System;
 using BoneGame.System.Sound;
@@ -11,6 +13,7 @@ using Newtonsoft.Json.Linq;
 using UniRx;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameEndMessage = BoneGame.Nocturnal.Planetarium.GameEndMessage;
 
 namespace BoneGame.Event
 {
@@ -48,7 +51,22 @@ namespace BoneGame.Event
             }
 
             GameMaster master = MasterDataHolder.Instance.GetGame(gameId);
-            await planetariumStarter.PlayGame(master);
+            planetariumStarter.PlayGame(master);
+            
+            await Messenger.Receive<GameEndMessage>().Take(1).ToUniTask();
+        }
+    }
+    
+    [Serializable]
+    public class FlagEvent : EventActionBase
+    {
+        [SerializeField] private EventFlag _eventFlag;
+
+        public override async UniTask StartAction(int eventId,
+            Queue<EventActionBase> eventActionBases, CancellationTokenSource source)
+        {
+            GameData.Instance().SetFrag(_eventFlag.Id);
+            await CallNextAction(eventId, eventActionBases, source);
         }
     }
 }

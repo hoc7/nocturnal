@@ -36,7 +36,8 @@ namespace BoneGame.Data.Celestial
         /// <param name="gameTime">Game時間のクラス</param>
         public void Initialization(float latitude,float startDegrees,GameTime gameTime)
         {
-            _celestialModel = new CelestialModel(latitude,startDegrees,MasterDataHolder.Instance.GetAllStar());
+            _gameTime = gameTime;
+            _celestialModel = new CelestialModel(latitude,startDegrees,MasterDataHolder.Instance.GetAllStar(),gameTime.Mult());
 
             gameTime.TimeElapsed.Subscribe(_ =>
             {

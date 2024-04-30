@@ -10,7 +10,7 @@ namespace BoneGame.Event.Trigger
         public List<EventFlag> Triggers = new List<EventFlag>();
         public override bool CheckTrigger()
         {
-            var flags = GameData.Instance().NowClearFlags;
+            var flags = GameData.Instance().GetFrag();
             var complete = Triggers.Select(_ => _.Id).All(_ => flags.Contains(_));
             return complete;
         }

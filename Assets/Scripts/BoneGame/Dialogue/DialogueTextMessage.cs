@@ -22,5 +22,15 @@
     {
         
     }
+
+    public class AwakeDialogueMessage
+    {
+        public DialogueData DialogueData;
+
+        public AwakeDialogueMessage(DialogueData dialogueData)
+        {
+            DialogueData = dialogueData;
+        }
+    }
     
 }
