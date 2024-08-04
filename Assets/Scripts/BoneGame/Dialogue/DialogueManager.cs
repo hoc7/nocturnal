@@ -2,6 +2,7 @@
 using BoneGame.Event;
 using BoneGame.Message;
 using BoneGame.System;
+using BoneGame.System.GameState;
 using UniRx;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -33,6 +34,9 @@ namespace BoneGame.Dialogue
             
             StartDialogueMessage message = new StartDialogueMessage();
             Messenger.Publish(message);
+            
+            StateChangeMessage scm = new StateChangeMessage(GameState.Talking);
+            Messenger.Publish(scm);
         }
 
         private void Awake()
@@ -44,8 +48,9 @@ namespace BoneGame.Dialogue
             }).AddTo(this);
         }
 
-        public override void FireAction(InputAction.CallbackContext context)
+        public override void FireAction(InputAction.CallbackContext context, GameState state)
         {
+            if (state != GameState.Talking) return;
             NowIndex++;
             if (Data != null && NowIndex >= 0 && NowIndex < MaxIndex)
             {
@@ -57,17 +62,25 @@ namespace BoneGame.Dialogue
             {
                 // Data[NowIndex] does not exist.
                 // Handle this case
+                
+                Data = null;
+                
+                StateChangeMessage scm = new StateChangeMessage(GameState.Idle);
+                Messenger.Publish(scm);
+                
+                
                 EndDialogueMessage message = new EndDialogueMessage();
                 Messenger.Publish(message);
+
 
                 // EventEndMessage eventEndMessage = new EventEndMessage();
                 // Messenger.Publish(eventEndMessage);
 
-                Data = null;
+        
             }
         }
 
-        public override void MoveAction(InputAction.CallbackContext context)
+        public override void MoveAction(InputAction.CallbackContext context, GameState state)
         {
         }
         

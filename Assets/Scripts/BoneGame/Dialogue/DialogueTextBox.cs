@@ -20,7 +20,17 @@ namespace BoneGame.Dialogue
             {
                 //Name.text = _.Entity.Actor.Name;
                 Text.text = _.Entity.Text;
-
+                TMP_TextInfo textInfo = new TMP_TextInfo(Text);
+                
+                int lineCount = textInfo.lineInfo.Length;
+                int maxCharCount;
+                for (int i = 0; i < lineCount; i++)
+                {
+                    TMP_LineInfo lineInfo = textInfo.lineInfo[i];
+                    int charCount = lineInfo.characterCount;
+                }
+                
+                
                 if (!NowOpen)
                 {
                     TextBoxObject.SetActive(true);

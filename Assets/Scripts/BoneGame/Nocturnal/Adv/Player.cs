@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using BoneGame.Message;
 using BoneGame.System;
+using BoneGame.System.GameState;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -37,12 +38,17 @@ public class Player : InputMonoBehaviour
     }
 
 
-    public override void MoveAction(InputAction.CallbackContext context)
+    public override void MoveAction(InputAction.CallbackContext context,GameState state)
     {
+        if (state == GameState.Talking)
+        {
+            m_Move = Vector2.zero;
+            return;
+        }
         m_Move = context.ReadValue<Vector2>();
     }
     
-    public override void FireAction(InputAction.CallbackContext context)
+    public override void FireAction(InputAction.CallbackContext context,GameState state)
     {
         Fire();
     }

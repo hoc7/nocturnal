@@ -89,7 +89,6 @@ namespace BoneGame.Event
     public class ProCameraTargetTransformChange: EventActionBase
     {
         [SerializeField] private string ObjectName;
-     
         
         public override async UniTask StartAction(int eventId,
             Queue<EventActionBase> eventActionBases, CancellationTokenSource source)

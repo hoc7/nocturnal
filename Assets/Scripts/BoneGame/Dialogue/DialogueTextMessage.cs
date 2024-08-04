@@ -12,6 +12,20 @@
             Entity = entity;
         }
     }
+    
+    
+    /// <summary>
+    /// アニメーションを変更する
+    /// </summary>
+    public class DialogueAnimationMessage
+    {
+        public ActorAnimation Entity;
+
+        public DialogueAnimationMessage(ActorAnimation entity)
+        {
+            Entity = entity;
+        }
+    }
 
     public class EndDialogueMessage
     {

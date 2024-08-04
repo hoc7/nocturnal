@@ -6,9 +6,9 @@ namespace BoneGame.System
 {
     public class RegistFireEventMessage
     {
-        public Action<InputAction.CallbackContext > Event;
+        public Action<InputAction.CallbackContext,GameState.GameState > Event;
 
-        public RegistFireEventMessage(Action<InputAction.CallbackContext > @event)
+        public RegistFireEventMessage(Action<InputAction.CallbackContext,GameState.GameState > @event)
         {
             Event = @event;
         }
@@ -16,9 +16,9 @@ namespace BoneGame.System
     
     public class RegistMoveEventMessage
     {
-        public Action<InputAction.CallbackContext > Event;
+        public Action<InputAction.CallbackContext,GameState.GameState > Event;
 
-        public RegistMoveEventMessage(Action<InputAction.CallbackContext > @event)
+        public RegistMoveEventMessage(Action<InputAction.CallbackContext,GameState.GameState > @event)
         {
             Event = @event;
         }

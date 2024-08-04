@@ -3,8 +3,9 @@ using System.Text;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
-#if UNITY_EDITOR
 using System.Collections.Generic;
+#if UNITY_EDITOR
+
 using UnityEditor;
 #endif
 namespace BoneGame.System
@@ -63,8 +64,13 @@ namespace BoneGame.System
         [Button("新しいマスターの作成")]
         public static T CreateNewMasterAsset<T>() where T : MasterDataScriptableObject
         {
-            int maxId = SearchExistMaster<T>().Select(_ => _.Id).Max();
-            
+            var searchResult = SearchExistMaster<T>();
+            int maxId = 1;
+            if (searchResult.Any())
+            {
+                maxId = SearchExistMaster<T>().Select(_ => _.Id).Max();
+            }
+
             // 新しいインスタンスを作成
             T newObj = ScriptableObject.CreateInstance<T>();
 
@@ -77,6 +83,8 @@ namespace BoneGame.System
 
             return newObj;
         }
+        
+        
 #endif
     }
 }

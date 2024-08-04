@@ -13,8 +13,8 @@ namespace BoneGame.System
     public class InputBehaviour : MonoBehaviour
     {
         private GameStateModel StateModel;
-        private List<Action<InputAction.CallbackContext>> OnMoveEvent = new List<Action<InputAction.CallbackContext>>();
-        private List<Action<InputAction.CallbackContext>> OnFireEvent = new List<Action<InputAction.CallbackContext>>();
+        private List<Action<InputAction.CallbackContext,GameState.GameState>> OnMoveEvent = new List<Action<InputAction.CallbackContext,GameState.GameState>>();
+        private List<Action<InputAction.CallbackContext,GameState.GameState>> OnFireEvent = new List<Action<InputAction.CallbackContext,GameState.GameState>>();
         private bool CanMove = false;
 
         private void Awake()
@@ -28,15 +28,15 @@ namespace BoneGame.System
             {
                 StateModel.ChangeState(_.GameState);
             }).AddTo(this);
+            
         }
 
 
         public void OnMove(InputAction.CallbackContext context)
         {
-            if (StateModel.CurrentState != GameState.GameState.Idle) return;
             foreach (var ev in OnMoveEvent)
             {
-                ev(context);
+                ev(context,StateModel.CurrentState);
             }
         }
 
@@ -45,7 +45,7 @@ namespace BoneGame.System
             if (!context.performed) return;
             foreach (var fire in OnFireEvent)
             {
-                fire(context);
+                fire(context,StateModel.CurrentState);
             }
         }
     }

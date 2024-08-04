@@ -16,8 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: ddd3e5a36d74dc14db99233d3d6be2c1, type: 2}
-    - {fileID: 11400000, guid: 9a8a3e4478241cf4a878a83f45aae9fe, type: 2}
+    - {fileID: 11400000, guid: 0dc5f424844064847b0c8b52d492fd3b, type: 2}
     - {fileID: 11400000, guid: 9283a7f98b0384c4392edf16e09a319f, type: 2}
     - {fileID: 11400000, guid: 5e6ede47fcec86d44b0fbdd6f24e6438, type: 2}
     SerializedBytesString: 
@@ -94,7 +93,7 @@ MonoBehaviour:
       Data: 4|BoneGame.Dialogue.Event.DialogueStartEvent, BoneDialogue
     - Name: Dialogue
       Entry: 10
-      Data: 1
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -103,7 +102,7 @@ MonoBehaviour:
       Data: 5|BoneGame.Event.FlagEvent, BoneGame_Nocturnal
     - Name: _eventFlag
       Entry: 10
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -132,7 +131,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: 
       Entry: 13
       Data: 
@@ -167,7 +166,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 10
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 13
       Data: 

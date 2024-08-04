@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using BoneGame.Event;
 using Cysharp.Threading.Tasks;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace BoneGame.Nocturnal.Event
 {
+    [LabelText("接触発火イベント")]
     public class ColliderEvent:MonoBehaviour
     {
         public List<EventMaster> Events = new List<EventMaster>();

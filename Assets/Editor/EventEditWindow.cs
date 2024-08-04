@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using BoneGame.Dialogue;
 using BoneGame.Event;
 using BoneGame.System;
@@ -70,5 +71,29 @@ public class DialogueCreateEditor
     {
         var master = MasterDataScriptableObject.CreateNewMasterAsset<DialogueData>();
         master.Rename();
+    }
+
+    [SerializeField] private TextAsset CSV;
+    [Button("csvデータの読み込み")]
+    public void CreateMasterFromCSV()
+    {
+        List<string[]> csvDatas = new List<string[]>();
+        StringReader reader = new StringReader(CSV.text);
+        while (reader.Peek() != -1)
+        {
+            string line = reader.ReadLine();
+            csvDatas.Add(line.Split(","));
+        }
+        var master = MasterDataScriptableObject.CreateNewMasterAsset<DialogueData>();
+        
+        foreach (var csv in csvDatas)
+        {
+            Talk entity = new Talk();
+            if (csv[0] == "演出"||csv[0]=="操作") continue;
+            entity.Actor = entity.FindActor(csv[0]);
+            entity.Text = csv[1];
+            master.Dialogues.Add(entity);
+        }
+      
     }
 }
